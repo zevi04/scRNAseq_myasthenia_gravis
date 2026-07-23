@@ -1,0 +1,11 @@
+# Large datasets
+DATA/RAW/
+DATA/PROCESSED/
+
+# R temporary files
+.Rhistory
+.RData
+.Rproj.user/
+
+# macOS
+.DS_Store
