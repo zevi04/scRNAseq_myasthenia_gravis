@@ -1,11 +1,13 @@
+# R objects
+*.RData
+*.rds
+
 # Large datasets
-DATA/RAW/
-DATA/PROCESSED/
+DATA/
 
-# R temporary files
+# Results
+RESULTS/*.rds
+
+# Temporary files
 .Rhistory
-.RData
-.Rproj.user/
-
-# macOS
-.DS_Store
+.RDataTmp
