@@ -15,6 +15,7 @@ Tomorrow
 - Download processed files
 - Read associated publication
 
+
 # 23 July 2026
 
 ## Objective
@@ -67,3 +68,69 @@ Set up the computational workflow for the single-cell RNA-seq analysis of Myasth
 - Identify what each `.txt.gz` file represents.
 - Build the sample metadata table.
 - Import the dataset into R using the appropriate workflow.
+
+
+# 2026-07-26
+
+## Progress
+
+Today marked the completion of the data preparation phase of the scRNA-seq pipeline.
+
+### Completed
+
+- Successfully created **40 individual Seurat objects** from the processed GEO expression matrices.
+- Merged all samples into a single Seurat object.
+
+### Merged Dataset
+
+- **Samples:** 40
+- **Cells:** 444,357
+- **Genes:** 36,601
+
+The merged object was saved to: RESULTS/objects/merged_seurat_object.rds
+
+
+### Quality Control
+
+Calculated standard QC metrics for every cell:
+
+- `nFeature_RNA`
+- `nCount_RNA`
+- `percent.mt`
+
+QC summary:
+
+| Metric | Min | Median | Max |
+|---------|----:|-------:|----:|
+| nFeature_RNA | 12 | 1474 | 8380 |
+| nCount_RNA | 500 | 5168 | 107729 |
+| percent.mt | 0.00 | 7.37 | 98.26 |
+
+### QC Visualization
+
+Generated and saved:
+
+- QC Violin Plot
+- Counts vs Features
+- Counts vs Mitochondrial %
+- Features vs Mitochondrial %
+
+Location: FIGURES/qc/
+
+
+Initial violin plots were cluttered because ~444k cells were plotted with individual points. Updated the visualization by removing point overlays (`pt.size = 0`), resulting in cleaner distributions.
+
+### Observations
+
+- Strong positive correlation between UMI counts and detected genes (~0.81).
+- Most cells have mitochondrial percentages below ~10%.
+- A subset of cells shows very high mitochondrial content, suggesting low-quality or dying cells that will be addressed during filtering.
+
+## Next Steps
+
+- Determine QC filtering thresholds.
+- Remove low-quality cells.
+- Normalize the filtered dataset.
+- Begin downstream dimensionality reduction and clustering.
+
+
