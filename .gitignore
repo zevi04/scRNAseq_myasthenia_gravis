@@ -11,3 +11,4 @@ RESULTS/*.rds
 # Temporary files
 .Rhistory
 .RDataTmp
+.Rproj.user

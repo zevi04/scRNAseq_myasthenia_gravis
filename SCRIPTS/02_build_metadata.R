@@ -9,7 +9,7 @@ rm(list = ls())
 
 library(data.table)
 
-setwd("C:/Users/zvima/OneDrive/Documents/GitHub/scRNAseq_myasthenia_gravis")
+setwd("C:/Bioinformatics/scRNAseq_myasthenia_gravis")
 
 #----------------------------------------------------------
 # List processed files
@@ -62,7 +62,7 @@ print(metadata)
 
 fwrite(
   metadata,
-  "RESULTS/sample_metadata.csv"
+  "RESULTS/metadata/sample_metadata.csv"
 )
 
 cat("\nMetadata saved successfully!\n")

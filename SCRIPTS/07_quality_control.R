@@ -1,9 +1,8 @@
 ###########################################################
 # Project : scRNA-seq Analysis of Myasthenia Gravis
-# Script  : 03_check_dataset_consistency.R
+# Script  : 07_quality_control.R
 # Author  : Zeno Vimalan A.
-# Date    : 26 July 2026
-# Purpose : Check whether all samples have the same genes
+# Purpose : Calculate quality control metrics
 ###########################################################
 
 #----------------------------------------------------------
@@ -13,55 +12,49 @@
 rm(list = ls())
 
 #----------------------------------------------------------
-# 2. Load package
+# 2. Load libraries
 #----------------------------------------------------------
 
-library(data.table)
+library(Seurat)
+library(ggplot2)
 
 #----------------------------------------------------------
-# 3. Set working directory
+# 3. Load merged Seurat object
 #----------------------------------------------------------
 
-setwd("C:/Bioinformatics/scRNAseq_myasthenia_gravis")
+merged_seurat <- readRDS(
+  "RESULTS/objects/merged_seurat_object.rds"
+)
 
 #----------------------------------------------------------
-# 4. Read sample metadata
+# 4. Calculate mitochondrial percentage
 #----------------------------------------------------------
 
-metadata <- fread("RESULTS/metadata/sample_metadata.csv")
+merged_seurat[["percent.mt"]] <- PercentageFeatureSet(
+  merged_seurat,
+  pattern = "^MT-"
+)
 
 #----------------------------------------------------------
-# 5. Read first column (gene IDs) from every sample
+# 5. Display summaries
 #----------------------------------------------------------
 
-gene_lists <- lapply(metadata$filename, function(file){
-  
-  fread(
-    file.path("DATA/PROCESSED", file),
-    select = 1
-  )$ID
-  
-})
+cat("\n===== Number of Genes per Cell =====\n")
+print(summary(merged_seurat$nFeature_RNA))
+
+cat("\n===== Number of UMIs per Cell =====\n")
+print(summary(merged_seurat$nCount_RNA))
+
+cat("\n===== Percent Mitochondrial Reads =====\n")
+print(summary(merged_seurat$percent.mt))
 
 #----------------------------------------------------------
-# 6. Compare gene lists
+# 6. Save updated Seurat object
 #----------------------------------------------------------
 
-reference <- gene_lists[[1]]
+saveRDS(
+  merged_seurat,
+  "RESULTS/objects/merged_seurat_object.rds"
+)
 
-same_genes <- sapply(gene_lists, function(x){
-  
-  identical(reference, x)
-  
-})
-
-#----------------------------------------------------------
-# 7. Display results
-#----------------------------------------------------------
-
-print(same_genes)
-
-cat("\n")
-
-cat(sum(same_genes), "out of", length(same_genes),
-    "samples have identical gene lists.\n")
+cat("\nQC metrics calculated and saved successfully.\n")

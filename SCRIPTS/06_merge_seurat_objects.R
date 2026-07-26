@@ -3,65 +3,60 @@
 # Script  : 06_merge_seurat_objects.R
 # Author  : Zeno Vimalan A.
 # Date    : 26 July 2026
-# Purpose : Merge all Seurat objects into one dataset
+# Purpose : Merge all Seurat objects into a single dataset
 ###########################################################
 
 #----------------------------------------------------------
-# 1. Clear workspace
+# 1. Check that Script 05 has been run
 #----------------------------------------------------------
 
-rm(list = ls())
+if (!exists("seurat_list")) {
+  stop("Run 05_create_all_seurat_objects.R first.")
+}
 
 #----------------------------------------------------------
-# 2. Load library
+# 2. Merge all Seurat objects
 #----------------------------------------------------------
 
-library(Seurat)
-
-#----------------------------------------------------------
-# 3. Set working directory
-#----------------------------------------------------------
-
-setwd("C:/Users/zvima/OneDrive/Documents/GitHub/scRNAseq_myasthenia_gravis")
-
-#----------------------------------------------------------
-# 4. Load Seurat object list
-#----------------------------------------------------------
-
-seurat_list <- readRDS(
-  "RESULTS/seurat_object_list.rds"
-)
-
-#----------------------------------------------------------
-# 5. Merge all Seurat objects
-#----------------------------------------------------------
+cat("Merging Seurat objects...\n")
 
 merged_seurat <- merge(
   x = seurat_list[[1]],
-  y = seurat_list[-1],
+  y = seurat_list[2:length(seurat_list)],
   add.cell.ids = names(seurat_list),
   project = "Myasthenia_Gravis_scRNAseq"
 )
 
+cat("Merge completed successfully!\n")
+
 #----------------------------------------------------------
-# 6. Display summary
+# 3. Display summary
 #----------------------------------------------------------
+
+cat("\nMerged Seurat object created successfully!\n\n")
 
 print(merged_seurat)
 
-cat("\nNumber of cells:\n")
-print(ncol(merged_seurat))
-
-cat("\nNumber of genes:\n")
-print(nrow(merged_seurat))
+cat("\nGenes :", nrow(merged_seurat), "\n")
+cat("Cells :", ncol(merged_seurat), "\n")
 
 #----------------------------------------------------------
-# 7. Save merged object
+# 4. Save merged Seurat object
 #----------------------------------------------------------
 
 saveRDS(
-  merged_seurat,
+  object = merged_seurat,
   file = "RESULTS/merged_seurat_object.rds"
 )
 
 cat("\nMerged Seurat object saved successfully!\n")
+
+#----------------------------------------------------------
+# 5. Verify that the file was saved
+#----------------------------------------------------------
+
+if (file.exists("RESULTS/merged_seurat_object.rds")) {
+  cat("Verified: merged_seurat_object.rds exists.\n")
+} else {
+  cat("ERROR: merged_seurat_object.rds was not found.\n")
+} 

@@ -23,13 +23,13 @@ library(Seurat)
 # 3. Set working directory
 #----------------------------------------------------------
 
-setwd("C:/Users/zvima/OneDrive/Documents/GitHub/scRNAseq_myasthenia_gravis")
+setwd("C:/Bioinformatics/scRNAseq_myasthenia_gravis")
 
 #----------------------------------------------------------
 # 4. Read metadata
 #----------------------------------------------------------
 
-metadata <- fread("RESULTS/sample_metadata.csv")
+metadata <- fread("RESULTS/metadata/sample_metadata.csv")
 
 #----------------------------------------------------------
 # 5. Create an empty list
