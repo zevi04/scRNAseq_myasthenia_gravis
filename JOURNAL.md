@@ -134,3 +134,132 @@ Initial violin plots were cluttered because ~444k cells were plotted with indivi
 - Begin downstream dimensionality reduction and clustering.
 
 
+
+Work Completed
+1. Quality Control Filtering
+
+Applied filtering criteria to remove low-quality cells.
+
+Filtering thresholds
+
+nFeature_RNA > 200
+nFeature_RNA < 6000
+percent.mt < 15%
+
+Results
+
+Cells before filtering: 444,357
+Cells after filtering: 420,538
+Cells removed: 23,819
+Percentage removed: 5.36%
+
+The removal percentage indicates that the dataset was already of good quality while eliminating cells likely to introduce technical noise.
+
+2. Data Normalization
+
+Performed library-size normalization using Seurat's NormalizeData() function.
+
+Method
+
+LogNormalize
+Scale factor = 10,000
+
+Normalization adjusts gene expression values so that differences in sequencing depth between cells do not bias downstream analyses.
+
+3. Highly Variable Gene Selection
+
+Identified genes with the greatest biological variability using FindVariableFeatures().
+
+Method
+
+Selection: VST
+Number of genes selected: 2,000
+
+These genes will be used for dimensionality reduction because they contribute most to distinguishing different cell populations.
+
+4. Data Scaling
+
+Scaled the highly variable genes using ScaleData().
+
+Scaling standardizes each gene to:
+
+Mean = 0
+Standard deviation = 1
+
+This prevents highly expressed genes from dominating Principal Component Analysis.
+
+Conceptual Understanding Gained
+
+Today's session focused heavily on understanding the reasoning behind each preprocessing step instead of simply executing Seurat functions.
+
+Key concepts learned
+Quality control removes poor-quality cells, not genes.
+Normalization corrects differences in sequencing depth between cells.
+Highly variable genes capture the biological differences between cells.
+Scaling standardizes expression values across genes before dimensionality reduction.
+PCA does not classify or cluster cells; it compresses thousands of correlated gene expression measurements into a smaller number of informative principal components.
+UMAP is a visualization method that projects cells into two dimensions while preserving neighborhood relationships.
+Cell clustering occurs after PCA and UMAP and is based on similarity between cells.
+Cell annotation is a biological interpretation step performed using known marker genes.
+Project Status
+Completed
+
+✓ Dataset Exploration
+✓ Data Import
+✓ Metadata Construction
+✓ Dataset Consistency Check
+✓ Seurat Object Creation
+✓ Merge Seurat Objects
+✓ Quality Control Metrics
+✓ QC Visualization
+✓ QC Filtering
+✓ Normalization
+✓ Highly Variable Gene Selection
+✓ Scaling
+Repository Improvements
+
+During today's work, the project structure was reorganized for improved readability.
+
+Current organization:
+
+RESULTS/
+├── metadata/
+├── objects/
+├── qc/
+├── tables/
+├── figures/
+└── logs/
+
+This organization will make future analyses and figure management easier.
+
+Challenges Encountered
+
+Several technical issues were encountered and resolved.
+
+Corrupted intermediate Seurat object caused by an incomplete saveRDS() operation.
+Initial confusion regarding Seurat object storage and large file sizes.
+Realization that intermediate Seurat objects occupy substantial disk space (approximately 12 GB total).
+Discussed future optimization by retaining only essential checkpoint objects after the pipeline is finalized.
+Reflections
+
+An important realization today was that simply running scripts does not necessarily lead to understanding the analysis. Moving forward, the workflow will emphasize understanding the biological and computational rationale behind each step before implementing it in code.
+
+This approach is intended to improve confidence in explaining the pipeline during interviews, research discussions, and future projects.
+
+Next Steps
+
+The next stage begins dimensionality reduction.
+
+Planned analyses:
+
+Principal Component Analysis (PCA)
+Elbow Plot generation
+PCA loading visualization
+Selection of informative principal components
+UMAP
+Clustering
+Cell type annotation
+Personal Reflection
+
+Today marked a shift from simply executing a bioinformatics pipeline to understanding how each analytical step contributes to interpreting single-cell RNA-seq data. The focus moved away from memorizing Seurat functions toward understanding the underlying concepts, with the goal of being able to explain the complete workflow confidently in a research interview or laboratory discussion.
+
