@@ -16,7 +16,7 @@ Tomorrow
 - Read associated publication
 
 
-# 23 July 2026
+# 23 July 
 
 ## Objective
 
@@ -70,7 +70,7 @@ Set up the computational workflow for the single-cell RNA-seq analysis of Myasth
 - Import the dataset into R using the appropriate workflow.
 
 
-# 2026-07-26
+# 26 JULY
 
 ## Progress
 
@@ -134,6 +134,7 @@ Initial violin plots were cluttered because ~444k cells were plotted with indivi
 - Begin downstream dimensionality reduction and clustering.
 
 
+# 27 JULY
 
 Work Completed
 1. Quality Control Filtering
@@ -265,8 +266,8 @@ Today marked a shift from simply executing a bioinformatics pipeline to understa
 
 
 
-**Date:** 29 July 2026
-**Project:** Single-cell RNA-seq Analysis of Myasthenia Gravis (GSE227835)
+# 28 JULY
+
 **Session:** Differential Expression & Marker Gene Identification Troubleshooting
 
 ---
