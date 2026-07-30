@@ -1,135 +1,179 @@
-###########################################################
-# Project : scRNA-seq Analysis of Myasthenia Gravis
-# Script  : 17_Find_Markers.R
-# Author  : Zeno Vimalan A.
-# Date    : 28 July 2026
-# Purpose : Identify marker genes for each cell cluster
-###########################################################
+###############################################################
+# SCRIPT 17: CELL TYPE ANNOTATION USING SingleR
+###############################################################
 
-#----------------------------------------------------------
-# 1. Load Libraries
-#----------------------------------------------------------
+rm(list = ls())
+gc()
+
+###############################################################
+# Load Libraries
+###############################################################
 
 library(Seurat)
+library(SingleR)
+library(celldex)
+library(SingleCellExperiment)
+library(SummarizedExperiment)
 library(dplyr)
-library(future)
+library(ggplot2)
 
-#----------------------------------------------------------
-# 2. Enable Parallel Processing
-#----------------------------------------------------------
-
-plan(multisession, workers = 12)
-
-#----------------------------------------------------------
-# 3. Join Normalized Data Layers (IMPORTANT)
-#----------------------------------------------------------
-#
-#cat("Joining normalized data layers...\n")
-#
-#scaled_seurat[["RNA"]] <- JoinLayers(
-#  object = scaled_seurat[["RNA"]],
-#  layers = "data",
- # new = "data"
-#)
-#
-#cat("Normalized data layers joined successfully.\n\n")
-#
-#----------------------------------------------------------
-# 4. Create Output Directory
-#----------------------------------------------------------
+###############################################################
+# Create Output Folders
+###############################################################
 
 dir.create(
-  "RESULTS/tables",
+  "C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/tables",
   recursive = TRUE,
   showWarnings = FALSE
 )
 
-#----------------------------------------------------------
-# 5. Identify Marker Genes
-#----------------------------------------------------------
+dir.create(
+  "C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/figures",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
 
-cat("---------------------------------------\n")
-cat("Finding Marker Genes\n")
-cat("---------------------------------------\n\n")
+dir.create(
+  "D:/Research/scRNAseq/RESULTS/objects",
+  recursive = TRUE,
+  showWarnings = FALSE
+)
 
-markers <- FindAllMarkers(
+###############################################################
+# Load Seurat Object
+###############################################################
+
+scaled_seurat <- readRDS(
+  "D:/Research/scRNAseq/RESULTS/objects/GSE227835_joined_layers.rds"
+)
+
+###############################################################
+# Aggregate Expression by Cluster
+###############################################################
+
+avg.exp <- AggregateExpression(
   object = scaled_seurat,
-  only.pos = TRUE,
-  min.pct = 0.25,
-  logfc.threshold = 0.25,
-  test.use = "wilcox",
-  return.thresh = 0.05,
-  verbose = TRUE
+  assays = "RNA",
+  group.by = "seurat_clusters",
+  return.seurat = FALSE
 )
 
-cat("\nMarker gene identification completed.\n")
+avg.mat <- avg.exp$RNA
 
-#----------------------------------------------------------
-# 6. Save Complete Marker Table
-#----------------------------------------------------------
+cat("Aggregated matrix dimensions:\n")
+print(dim(avg.mat))
+print(object.size(avg.mat))
+
+###############################################################
+# Create SingleCellExperiment
+###############################################################
+
+sce.cluster <- SingleCellExperiment(
+  assays = list(logcounts = avg.mat)
+)
+
+###############################################################
+# Load Monaco Immune Reference
+###############################################################
+
+monaco.ref <- MonacoImmuneData()
+
+###############################################################
+# Run SingleR
+###############################################################
+
+pred <- SingleR(
+  test = sce.cluster,
+  ref = monaco.ref,
+  labels = monaco.ref$label.main
+)
+
+###############################################################
+# Create Annotation Table
+###############################################################
+
+annotation <- data.frame(
+  Cluster = colnames(avg.mat),
+  Predicted_Cell_Type = pred$labels,
+  Delta_Score = pred$delta.next
+)
+
+###############################################################
+# Remove 'g' Prefix from Cluster Names
+###############################################################
+
+annotation$Cluster <- sub("^g", "", annotation$Cluster)
+
+print(annotation)
+
+###############################################################
+# Save Annotation Table
+###############################################################
 
 write.csv(
-  markers,
-  file = "RESULTS/tables/All_Cluster_Markers.csv",
+  annotation,
+  "C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/tables/SingleR_cluster_annotation.csv",
   row.names = FALSE
 )
 
-#----------------------------------------------------------
-# 7. Save Top 20 Marker Genes Per Cluster
-#----------------------------------------------------------
+###############################################################
+# Map Cell Type Labels to Seurat Object
+###############################################################
 
-top20_markers <- markers %>%
-  group_by(cluster) %>%
-  slice_max(
-    order_by = avg_log2FC,
-    n = 20,
-    with_ties = FALSE
-  )
-
-write.csv(
-  top20_markers,
-  file = "RESULTS/tables/Top20_Markers_Per_Cluster.csv",
-  row.names = FALSE
+cluster.map <- setNames(
+  annotation$Predicted_Cell_Type,
+  annotation$Cluster
 )
 
-#----------------------------------------------------------
-# 8. Save Highly Significant Markers
-#----------------------------------------------------------
-
-significant_markers <- markers %>%
-  filter(
-    p_val_adj < 0.05,
-    avg_log2FC > 1
-  )
-
-write.csv(
-  significant_markers,
-  file = "RESULTS/tables/Significant_Markers.csv",
-  row.names = FALSE
+labels <- unname(
+  cluster.map[as.character(Idents(scaled_seurat))]
 )
 
-#----------------------------------------------------------
-# 9. Restore Sequential Processing
-#----------------------------------------------------------
+scaled_seurat <- AddMetaData(
+  object = scaled_seurat,
+  metadata = labels,
+  col.name = "SingleR_Label"
+)
 
-plan(sequential)
+###############################################################
+# Quality Control
+###############################################################
 
-gc()
+cat("\nCell type distribution:\n")
+print(table(scaled_seurat$SingleR_Label))
 
-#----------------------------------------------------------
-# 10. Summary
-#----------------------------------------------------------
+###############################################################
+# UMAP Visualization
+###############################################################
 
-cat("\n---------------------------------------\n")
-cat("Marker Gene Identification Complete\n")
-cat("---------------------------------------\n\n")
+p1 <- DimPlot(
+  scaled_seurat,
+  group.by = "SingleR_Label",
+  label = TRUE,
+  repel = TRUE,
+  label.size = 5,
+  raster = TRUE
+) +
+  ggtitle("SingleR Cell Type Annotation")
 
-cat("Total marker genes identified :", nrow(markers), "\n")
-cat("Number of clusters           :", length(unique(markers$cluster)), "\n\n")
+print(p1)
 
-cat("Files generated:\n")
-cat("1. RESULTS/tables/All_Cluster_Markers.csv\n")
-cat("2. RESULTS/tables/Top20_Markers_Per_Cluster.csv\n")
-cat("3. RESULTS/tables/Significant_Markers.csv\n")
+ggsave(
+  filename = "C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/figures/UMAP_SingleR_Annotation.png",
+  plot = p1,
+  width = 12,
+  height = 10,
+  dpi = 600
+)
 
-cat("\nProceed to cell type annotation.\n")
+###############################################################
+# Save Annotated Seurat Object
+###############################################################
+
+saveRDS(
+  scaled_seurat,
+  "D:/Research/scRNAseq/RESULTS/objects/GSE227835_annotated.rds",
+  compress = FALSE
+)
+
+cat("\nSingleR annotation completed successfully.\n")
