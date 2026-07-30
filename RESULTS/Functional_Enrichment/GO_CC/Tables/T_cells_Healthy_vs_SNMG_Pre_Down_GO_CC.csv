@@ -1,0 +1,8 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0447545701030263,5,14,1,0.0714285714285714,0.2,"GO:0030895","GO:CC","apolipoprotein B mRNA editing enzyme complex",22155,968,"GO:0045293;GO:0140513","T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0447545701030263,2548,14,6,0.428571428571429,0.00235478806907378,"GO:0031410","GO:CC","cytoplasmic vesicle",22155,1078,"GO:0005737;GO:0097708","T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0447545701030263,89,14,2,0.142857142857143,0.0224719101123595,"GO:0045334","GO:CC","clathrin-coated endocytic vesicle",22155,2123,"GO:0030136;GO:0030139","T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0447545701030263,355,14,3,0.214285714285714,0.00845070422535211,"GO:0030139","GO:CC","endocytic vesicle",22155,889,"GO:0031410","T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0447545701030263,2556,14,6,0.428571428571429,0.00234741784037559,"GO:0097708","GO:CC","intracellular vesicle",22155,3067,"GO:0031982;GO:0043231","T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0447545701030263,72,14,2,0.142857142857143,0.0277777777777778,"GO:0030669","GO:CC","clathrin-coated endocytic vesicle membrane",22155,932,"GO:0030665;GO:0030666;GO:0045334","T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0447545701030263,135,14,2,0.142857142857143,0.0148148148148148,"GO:0030665","GO:CC","clathrin-coated vesicle membrane",22155,928,"GO:0030136;GO:0030662","T_cells_Healthy_vs_SNMG_Pre","Down"

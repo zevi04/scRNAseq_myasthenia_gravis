@@ -1,0 +1,5 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0210107486058286,16,11,2,0.181818181818182,0.125,"REAC:R-HSA-180292","REAC","GAB1 signalosome",11056,1055,"REAC:R-HSA-177929","T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0210107486058286,22,11,2,0.181818181818182,0.0909090909090909,"REAC:R-HSA-389357","REAC","CD28 dependent PI3K/Akt signaling",11056,282,"REAC:R-HSA-389356","T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0210107486058286,23,11,2,0.181818181818182,0.0869565217391304,"REAC:R-HSA-1643713","REAC","Signaling by EGFR in Cancer",11056,2327,"REAC:R-HSA-5663202","T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0288369203071786,31,11,2,0.181818181818182,0.0645161290322581,"REAC:R-HSA-389356","REAC","Co-stimulation by CD28",11056,394,"REAC:R-HSA-388841","T_cells_Healthy_vs_AChR_MG","Up"

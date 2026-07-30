@@ -1,0 +1,5 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0222675472189364,201,8,3,0.375,0.0149253731343284,"KEGG:05169","KEGG","Epstein-Barr virus infection",8716,466,"KEGG:00000","NK_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0222675472189364,234,8,3,0.375,0.0128205128205128,"KEGG:05171","KEGG","Coronavirus disease - COVID-19",8716,468,"KEGG:00000","NK_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0434784121977144,90,8,2,0.25,0.0222222222222222,"KEGG:04658","KEGG","Th1 and Th2 cell differentiation",8716,349,"KEGG:00000","NK_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0449778445985121,106,8,2,0.25,0.0188679245283019,"KEGG:04659","KEGG","Th17 cell differentiation",8716,350,"KEGG:00000","NK_cells_Healthy_vs_SNMG_Pre","Up"

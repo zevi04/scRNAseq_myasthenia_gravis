@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0158337454378135,2,5,1,0.2,0.5,"GO:0004906","GO:MF","type II interferon receptor activity",20208,1121,"GO:0004904","NK_cells_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.019786305549621,5,5,1,0.2,0.2,"GO:0004904","GO:MF","interferon receptor activity",20208,1119,"GO:0004896","NK_cells_SNMG_Pre_vs_SNMG_Post","Down"

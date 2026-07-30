@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00860428623754963,437,6,3,0.5,0.0068649885583524,"GO:0030133","GO:CC","transport vesicle",22155,884,"GO:0012505;GO:0031410","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0360251522778899,249,6,2,0.333333333333333,0.00803212851405622,"GO:0030658","GO:CC","transport vesicle membrane",22155,922,"GO:0030133;GO:0030659;GO:0098588","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0360251522778899,235,6,2,0.333333333333333,0.00851063829787234,"GO:0070382","GO:CC","exocytic vesicle",22155,2403,"GO:0030133;GO:0099503","Basophils_SNMG_Pre_vs_SNMG_Post","Down"

@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0383361058283784,228,8,3,0.375,0.0131578947368421,"GO:0072593","GO:BP","reactive oxygen species metabolic process",20972,16278,"GO:0008152","CD8__T_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0469932223379221,52,8,2,0.25,0.0384615384615385,"GO:0045912","GO:BP","negative regulation of carbohydrate metabolic process",20972,10931,"GO:0005975;GO:0006109;GO:0009892","CD8__T_cells_Healthy_vs_SNMG_Pre","Down"

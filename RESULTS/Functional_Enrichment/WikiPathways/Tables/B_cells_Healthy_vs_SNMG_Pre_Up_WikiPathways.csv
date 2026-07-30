@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0178786444080895,18,16,2,0.125,0.111111111111111,"WP:WP5033","WP","Genes associated with the development of rheumatoid arthritis",8899,621,"WP:000000","B_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0178786444080895,88,16,3,0.1875,0.0340909090909091,"WP:WP2328","WP","Allograft rejection",8899,104,"WP:000000","B_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0354852240736918,128,16,3,0.1875,0.0234375,"WP:WP4217","WP","Ebola virus infection in host",8899,378,"WP:000000","B_cells_Healthy_vs_SNMG_Pre","Up"

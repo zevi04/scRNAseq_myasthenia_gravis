@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0133257082614862,215,2,2,1,0.00930232558139535,"KEGG:05417","KEGG","Lipid and atherosclerosis",8716,510,"KEGG:00000","Monocytes_Healthy_vs_AChR_MG","Down"

@@ -1,0 +1,7 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.027154363855642,23,16,2,0.125,0.0869565217391304,"REAC:R-HSA-202427","REAC","Phosphorylation of CD3 and TCR zeta chains",11056,1821,"REAC:R-HSA-202403","NK_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.027154363855642,20,16,2,0.125,0.1,"REAC:R-HSA-202430","REAC","Translocation of ZAP-70 to Immunological synapse",11056,2677,"REAC:R-HSA-202403","NK_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.027154363855642,25,16,2,0.125,0.08,"REAC:R-HSA-2424491","REAC","DAP12 signaling",11056,453,"REAC:R-HSA-2172127","NK_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.027154363855642,24,16,2,0.125,0.0833333333333333,"REAC:R-HSA-389948","REAC","Co-inhibition by PD-1",11056,393,"REAC:R-HSA-388841","NK_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0356024173986493,35,16,2,0.125,0.0571428571428571,"REAC:R-HSA-202433","REAC","Generation of second messenger molecules",11056,1092,"REAC:R-HSA-202403","NK_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0356024173986493,35,16,2,0.125,0.0571428571428571,"REAC:R-HSA-2172127","REAC","DAP12 interactions",11056,452,"REAC:R-HSA-168249","NK_cells_Healthy_vs_AChR_MG","Down"

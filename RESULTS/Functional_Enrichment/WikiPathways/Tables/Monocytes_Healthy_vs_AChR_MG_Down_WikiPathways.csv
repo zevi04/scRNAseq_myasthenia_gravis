@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00452207965299385,90,3,2,0.666666666666667,0.0222222222222222,"WP:WP1772","WP","Apoptosis modulation and signaling",8899,47,"WP:000000","Monocytes_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0319613252222489,19,3,1,0.333333333333333,0.0526315789473684,"WP:WP384","WP","Apoptosis modulation by HSP70",8899,276,"WP:000000","Monocytes_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0319613252222489,19,3,1,0.333333333333333,0.0526315789473684,"WP:WP1742","WP","TP53 network",8899,45,"WP:000000","Monocytes_Healthy_vs_AChR_MG","Down"

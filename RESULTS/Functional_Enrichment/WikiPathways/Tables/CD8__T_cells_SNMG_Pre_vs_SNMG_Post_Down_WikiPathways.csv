@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0213813178800357,70,17,3,0.176470588235294,0.0428571428571429,"WP:WP2880","WP","Glucocorticoid receptor pathway",8899,192,"WP:000000","CD8__T_cells_SNMG_Pre_vs_SNMG_Post","Down"

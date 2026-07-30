@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0115892053766615,8,17,2,0.117647058823529,0.25,"REAC:R-HSA-9732724","REAC","IFNG signaling activates MAPKs",11056,1190,"REAC:R-HSA-877300","Monocytes_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.013609364803384,12,17,2,0.117647058823529,0.166666666666667,"REAC:R-HSA-877312","REAC","Regulation of IFNG signaling",11056,2060,"REAC:R-HSA-877300","Monocytes_SNMG_Pre_vs_SNMG_Post","Down"

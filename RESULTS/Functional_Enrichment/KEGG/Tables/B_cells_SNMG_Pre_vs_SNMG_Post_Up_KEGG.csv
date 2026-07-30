@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0490089159073312,114,4,2,0.5,0.0175438596491228,"KEGG:04928","KEGG","Parathyroid hormone synthesis, secretion and action",8716,399,"KEGG:00000","B_cells_SNMG_Pre_vs_SNMG_Post","Up"

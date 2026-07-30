@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.020400585878789,37,8,2,0.25,0.0540540540540541,"WP:WP619","WP","Type II interferon signaling",8899,956,"WP:000000","NK_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0406842529753775,74,8,2,0.25,0.027027027027027,"WP:WP5218","WP","Extrafollicular and follicular B cell activation by SARS CoV 2",8899,730,"WP:000000","NK_cells_Healthy_vs_SNMG_Pre","Up"

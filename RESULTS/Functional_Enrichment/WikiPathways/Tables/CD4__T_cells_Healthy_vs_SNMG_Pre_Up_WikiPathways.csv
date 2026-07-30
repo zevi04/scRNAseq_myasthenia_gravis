@@ -1,0 +1,5 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.000573791090512786,66,8,3,0.375,0.0454545454545455,"WP:WP5039","WP","SARS CoV 2 innate immunity evasion and cell specific immune response",8899,625,"WP:000000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.00441924761985546,165,8,3,0.375,0.0181818181818182,"WP:WP3929","WP","Chemokine signaling",8899,309,"WP:000000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0104133780220582,254,8,3,0.375,0.0118110236220472,"WP:WP5473","WP","Cytokine cytokine receptor interaction",8899,859,"WP:000000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0361034324373634,127,8,2,0.25,0.015748031496063,"WP:WP5095","WP","Overview of proinflammatory and profibrotic mediators",8899,652,"WP:000000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"

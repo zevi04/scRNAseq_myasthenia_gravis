@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0469352846122207,32,42,3,0.0714285714285714,0.09375,"WP:WP4149","WP","White fat cell differentiation",8899,357,"WP:000000","Monocytes_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0469352846122207,145,42,5,0.119047619047619,0.0344827586206897,"WP:WP1449","WP","Regulation of toll like receptor signaling",8899,21,"WP:000000","Monocytes_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0469352846122207,313,42,7,0.166666666666667,0.0223642172523962,"WP:WP2882","WP","Nuclear receptors meta pathway",8899,194,"WP:000000","Monocytes_Healthy_vs_SNMG_Pre","Down"

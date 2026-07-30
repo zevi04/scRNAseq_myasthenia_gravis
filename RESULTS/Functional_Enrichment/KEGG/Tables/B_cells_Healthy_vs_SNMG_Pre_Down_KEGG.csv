@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00276411884680914,247,53,9,0.169811320754717,0.0364372469635627,"KEGG:05132","KEGG","Salmonella infection",8716,445,"KEGG:00000","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0322336076970042,56,53,4,0.0754716981132075,0.0714285714285714,"KEGG:05134","KEGG","Legionellosis",8716,447,"KEGG:00000","B_cells_Healthy_vs_SNMG_Pre","Down"

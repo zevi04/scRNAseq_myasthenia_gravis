@@ -1,0 +1,5 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00191829462051871,118,12,4,0.333333333333333,0.0338983050847458,"KEGG:04668","KEGG","TNF signaling pathway",8716,355,"KEGG:00000","T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0160648391247578,102,12,3,0.25,0.0294117647058824,"KEGG:05142","KEGG","Chagas disease",8716,450,"KEGG:00000","T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0160648391247578,107,12,3,0.25,0.0280373831775701,"KEGG:04620","KEGG","Toll-like receptor signaling pathway",8716,338,"KEGG:00000","T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0228015562867124,133,12,3,0.25,0.0225563909774436,"KEGG:04380","KEGG","Osteoclast differentiation",8716,318,"KEGG:00000","T_cells_Healthy_vs_AChR_MG","Up"

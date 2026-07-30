@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0176519603117414,191,8,3,0.375,0.0157068062827225,"KEGG:04062","KEGG","Chemokine signaling pathway",8716,262,"KEGG:00000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.030041825201207,291,8,3,0.375,0.0103092783505155,"KEGG:04060","KEGG","Cytokine-cytokine receptor interaction",8716,260,"KEGG:00000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0368804132276334,98,8,2,0.25,0.0204081632653061,"KEGG:04061","KEGG","Viral protein interaction with cytokine and cytokine receptor",8716,261,"KEGG:00000","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"

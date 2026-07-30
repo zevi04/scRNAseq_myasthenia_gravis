@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00575935225534414,57,4,2,0.5,0.0350877192982456,"REAC:R-HSA-3371497","REAC","HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",11056,1160,"REAC:R-HSA-2262752","CD4__T_cells_SNMG_Pre_vs_SNMG_Post","Down"

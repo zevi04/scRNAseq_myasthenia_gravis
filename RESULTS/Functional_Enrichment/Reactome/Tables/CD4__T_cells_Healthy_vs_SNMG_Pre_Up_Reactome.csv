@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0053403033563255,259,9,4,0.444444444444444,0.0154440154440154,"REAC:R-HSA-76002","REAC","Platelet activation, signaling and aggregation",11056,1834,"REAC:R-HSA-109582","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0339495451592865,39,9,2,0.222222222222222,0.0512820512820513,"REAC:R-HSA-140877","REAC","Formation of Fibrin Clot (Clotting Cascade)",11056,986,"REAC:R-HSA-109582","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0483787044198111,57,9,2,0.222222222222222,0.0350877192982456,"REAC:R-HSA-380108","REAC","Chemokine receptors bind chemokines",11056,363,"REAC:R-HSA-375276","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"

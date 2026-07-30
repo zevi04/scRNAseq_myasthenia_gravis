@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0341943942206981,9,44,2,0.0454545454545455,0.222222222222222,"GO:0004298","GO:MF","threonine-type endopeptidase activity",20208,640,"GO:0004175;GO:0070003","B_cells_Healthy_vs_AChR_MG","Down"

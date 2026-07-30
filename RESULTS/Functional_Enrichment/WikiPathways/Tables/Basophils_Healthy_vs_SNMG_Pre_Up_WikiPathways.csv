@@ -1,0 +1,8 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0277392633923028,74,8,2,0.25,0.027027027027027,"WP:WP4341","WP","Non genomic actions of 1 25 dihydroxyvitamin D3",8899,426,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0277392633923028,253,8,3,0.375,0.0118577075098814,"WP:WP5115","WP","Network map of SARS CoV 2 signaling",8899,667,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0366716559032097,136,8,2,0.25,0.0147058823529412,"WP:WP4630","WP","Measles virus infection",8899,493,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0366716559032097,6,8,1,0.125,0.166666666666667,"WP:WP5604","WP","Sickle cell disease",8899,945,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0366716559032097,110,8,2,0.25,0.0181818181818182,"WP:WP4874","WP","CAMKK2 pathway",8899,569,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0447900320833811,10,8,1,0.125,0.1,"WP:WP1995","WP","Effects of nitric oxide",8899,63,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0460335310477747,12,8,1,0.125,0.0833333333333333,"WP:WP5605","WP","Hemoglobin switching embryonic fetal and adult",8899,946,"WP:000000","Basophils_Healthy_vs_SNMG_Pre","Up"

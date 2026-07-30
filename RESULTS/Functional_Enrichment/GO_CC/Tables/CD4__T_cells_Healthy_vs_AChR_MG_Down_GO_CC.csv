@@ -1,0 +1,6 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00168346607017865,5,25,2,0.08,0.4,"GO:1990111","GO:CC","spermatoproteasome complex",22155,3797,"GO:0000502","CD4__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.00438861851298369,14,25,2,0.08,0.142857142857143,"GO:0001931","GO:CC","uropod",22155,160,"GO:0031254;GO:0120025","CD4__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.00438861851298369,15,25,2,0.08,0.133333333333333,"GO:0031254","GO:CC","cell trailing edge",22155,1048,"GO:0110165","CD4__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.00438861851298369,11,25,2,0.08,0.181818181818182,"GO:0019774","GO:CC","proteasome core complex, beta-subunit complex",22155,789,"GO:0005622;GO:0005839;GO:0032991","CD4__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.00841289584301801,23,25,2,0.08,0.0869565217391304,"GO:0005839","GO:CC","proteasome core complex",22155,375,"GO:0000502;GO:0140535;GO:1902494","CD4__T_cells_Healthy_vs_AChR_MG","Down"

@@ -1,0 +1,7 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,1.588453102982e-05,169,6,4,0.666666666666667,0.0236686390532544,"KEGG:05164","KEGG","Influenza A",8716,461,"KEGG:00000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,1.588453102982e-05,156,6,4,0.666666666666667,0.0256410256410256,"KEGG:05160","KEGG","Hepatitis C",8716,457,"KEGG:00000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.000383011952807902,136,6,3,0.5,0.0220588235294118,"KEGG:05162","KEGG","Measles",8716,459,"KEGG:00000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.00143950542846628,234,6,3,0.5,0.0128205128205128,"KEGG:05171","KEGG","Coronavirus disease - COVID-19",8716,468,"KEGG:00000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.00265760216754139,331,6,3,0.5,0.00906344410876133,"KEGG:05165","KEGG","Human papillomavirus infection",8716,462,"KEGG:00000","Basophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.00265760216754139,70,6,2,0.333333333333333,0.0285714285714286,"KEGG:03250","KEGG","Viral life cycle - HIV-1",8716,228,"KEGG:00000","Basophils_Healthy_vs_SNMG_Pre","Up"

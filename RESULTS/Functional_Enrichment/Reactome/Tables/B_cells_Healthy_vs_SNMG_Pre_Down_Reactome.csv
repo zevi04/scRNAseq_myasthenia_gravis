@@ -1,0 +1,8 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00266218614911893,111,68,7,0.102941176470588,0.0630630630630631,"REAC:R-HSA-6785807","REAC","Interleukin-4 and Interleukin-13 signaling",11056,1303,"REAC:R-HSA-449147","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0350402585556586,780,68,14,0.205882352941176,0.0179487179487179,"REAC:R-HSA-1280215","REAC","Cytokine Signaling in Immune system",11056,441,"REAC:R-HSA-168256","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0350402585556586,2086,68,25,0.367647058823529,0.0119846596356663,"REAC:R-HSA-168256","REAC","Immune System",11056,1219,"REAC:0000000","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0350402585556586,20,68,3,0.0441176470588235,0.15,"REAC:R-HSA-622312","REAC","Inflammasomes",11056,1234,"REAC:R-HSA-168643","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0350402585556586,356,68,9,0.132352941176471,0.0252808988764045,"REAC:R-HSA-3700989","REAC","Transcriptional Regulation by TP53",11056,2644,"REAC:R-HSA-212436","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0350402585556586,55,68,4,0.0588235294117647,0.0727272727272727,"REAC:R-HSA-168643","REAC","Nucleotide-binding domain, leucine rich repeat containing receptor (NLR) signaling pathways",11056,1693,"REAC:R-HSA-168249","B_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0468322879968493,476,68,10,0.147058823529412,0.0210084033613445,"REAC:R-HSA-449147","REAC","Signaling by Interleukins",11056,2358,"REAC:R-HSA-1280215","B_cells_Healthy_vs_SNMG_Pre","Down"

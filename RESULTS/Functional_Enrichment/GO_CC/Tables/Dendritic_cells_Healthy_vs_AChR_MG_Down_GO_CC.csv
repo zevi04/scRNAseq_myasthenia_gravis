@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0112276606230736,12601,35,31,0.885714285714286,0.00246012221252282,"GO:0005737","GO:CC","cytoplasm",22155,304,"GO:0005622;GO:0110165","Dendritic_cells_Healthy_vs_AChR_MG","Down"

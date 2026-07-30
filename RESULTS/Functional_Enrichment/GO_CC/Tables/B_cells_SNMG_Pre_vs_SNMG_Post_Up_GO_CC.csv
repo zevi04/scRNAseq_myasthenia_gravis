@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0384519907395442,2,6,1,0.166666666666667,0.5,"GO:0070557","GO:CC","PCNA-p21 complex",22155,2448,"GO:0140513","B_cells_SNMG_Pre_vs_SNMG_Post","Up"

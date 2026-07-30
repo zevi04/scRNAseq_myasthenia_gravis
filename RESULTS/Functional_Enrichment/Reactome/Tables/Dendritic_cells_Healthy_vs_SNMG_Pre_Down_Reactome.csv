@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0163330771544928,806,59,14,0.23728813559322,0.0173697270471464,"REAC:R-HSA-8953897","REAC","Cellular responses to stimuli",11056,356,"REAC:0000000","Dendritic_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0163330771544928,780,59,14,0.23728813559322,0.0179487179487179,"REAC:R-HSA-1280215","REAC","Cytokine Signaling in Immune system",11056,441,"REAC:R-HSA-168256","Dendritic_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0368886314522952,792,59,13,0.220338983050847,0.0164141414141414,"REAC:R-HSA-2262752","REAC","Cellular responses to stress",11056,357,"REAC:R-HSA-8953897","Dendritic_cells_Healthy_vs_SNMG_Pre","Down"

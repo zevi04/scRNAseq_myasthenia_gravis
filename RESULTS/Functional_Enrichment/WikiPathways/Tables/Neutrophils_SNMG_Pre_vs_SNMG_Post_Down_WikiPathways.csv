@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.012043159740567,60,35,4,0.114285714285714,0.0666666666666667,"WP:WP3945","WP","TYROBP causal network in microglia",8899,322,"WP:000000","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"

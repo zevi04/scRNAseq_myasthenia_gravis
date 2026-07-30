@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00373116563873688,6,28,2,0.0714285714285714,0.333333333333333,"GO:0035976","GO:CC","transcription factor AP-1 complex",22155,1621,"GO:0090575","CD4__T_cells_Healthy_vs_SNMG_Pre","Down"

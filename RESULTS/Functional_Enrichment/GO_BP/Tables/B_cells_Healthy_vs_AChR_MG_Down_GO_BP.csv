@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.000530197467898984,2913,41,19,0.463414634146341,0.00652248541023,"GO:0002376","GO:BP","immune system process",20972,867,"GO:0008150","B_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.000530197467898984,2118,41,16,0.390243902439024,0.00755429650613787,"GO:0006955","GO:BP","immune response",20972,2455,"GO:0002376;GO:0050896","B_cells_Healthy_vs_AChR_MG","Down"

@@ -1,0 +1,6 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0389698819350822,136,6,2,0.333333333333333,0.0147058823529412,"KEGG:04210","KEGG","Apoptosis",8716,296,"KEGG:00000","CD8__T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0389698819350822,103,6,2,0.333333333333333,0.0194174757281553,"KEGG:04064","KEGG","NF-kappa B signaling pathway",8716,263,"KEGG:00000","CD8__T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0389698819350822,136,6,2,0.333333333333333,0.0147058823529412,"KEGG:05162","KEGG","Measles",8716,459,"KEGG:00000","CD8__T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0389698819350822,118,6,2,0.333333333333333,0.0169491525423729,"KEGG:04668","KEGG","TNF signaling pathway",8716,355,"KEGG:00000","CD8__T_cells_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0389698819350822,92,6,2,0.333333333333333,0.0217391304347826,"KEGG:04657","KEGG","IL-17 signaling pathway",8716,348,"KEGG:00000","CD8__T_cells_Healthy_vs_AChR_MG","Up"

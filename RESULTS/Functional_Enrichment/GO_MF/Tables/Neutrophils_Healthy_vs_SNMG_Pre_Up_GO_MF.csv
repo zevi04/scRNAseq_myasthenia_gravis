@@ -1,0 +1,5 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,1.0641713005217e-06,76,37,6,0.162162162162162,0.0789473684210526,"GO:0003725","GO:MF","double-stranded RNA binding",20208,335,"GO:0003723","Neutrophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.00106054290268624,3,37,2,0.0540540540540541,0.666666666666667,"GO:0001730","GO:MF","2'-5'-oligoadenylate synthetase activity",20208,230,"GO:0070566","Neutrophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.010653566422023,147,37,4,0.108108108108108,0.0272108843537415,"GO:0016779","GO:MF","nucleotidyltransferase activity",20208,2887,"GO:0016772","Neutrophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0476168598492771,24,37,2,0.0540540540540541,0.0833333333333333,"GO:0003950","GO:MF","NAD+ poly-ADP-ribosyltransferase activity",20208,450,"GO:0016763","Neutrophils_Healthy_vs_SNMG_Pre","Up"

@@ -1,0 +1,8 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.018107157724645,2,6,1,0.166666666666667,0.5,"GO:0019809","GO:MF","spermidine binding",20208,3427,"GO:0019808;GO:0043169","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.018107157724645,3,6,1,0.166666666666667,0.333333333333333,"GO:0019808","GO:MF","polyamine binding",20208,3426,"GO:0043176","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.018107157724645,3,6,1,0.166666666666667,0.333333333333333,"GO:0004145","GO:MF","diamine N-acetyltransferase activity",20208,602,"GO:0008080","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0421925748840404,14,6,1,0.166666666666667,0.0714285714285714,"GO:0043027","GO:MF","cysteine-type endopeptidase inhibitor activity involved in apoptotic process",20208,5142,"GO:0043028","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0421925748840404,14,6,1,0.166666666666667,0.0714285714285714,"GO:0042043","GO:MF","neurexin family protein binding",20208,5000,"GO:0005102","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0421925748840404,14,6,1,0.166666666666667,0.0714285714285714,"GO:0043176","GO:MF","amine binding",20208,5160,"GO:0005488","Basophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.046474935891947,18,6,1,0.166666666666667,0.0555555555555556,"GO:0030297","GO:MF","transmembrane receptor protein tyrosine kinase activator activity",20208,3606,"GO:0030296;GO:0030546","Basophils_SNMG_Pre_vs_SNMG_Post","Down"

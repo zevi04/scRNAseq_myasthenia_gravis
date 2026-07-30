@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,3.02295775410385e-06,12601,37,36,0.972972972972973,0.00285691611776843,"GO:0005737","GO:CC","cytoplasm",22155,304,"GO:0005622;GO:0110165","Neutrophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,2.79442851128142e-05,5607,37,24,0.648648648648649,0.00428036383092563,"GO:0005829","GO:CC","cytosol",22155,367,"GO:0005737;GO:0110165","Neutrophils_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.00670059059279377,719,37,7,0.189189189189189,0.00973574408901252,"GO:0048471","GO:CC","perinuclear region of cytoplasm",22155,2167,"GO:0005737;GO:0110165","Neutrophils_Healthy_vs_SNMG_Pre","Up"

@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00241703581240862,30,20,3,0.15,0.1,"GO:0001562","GO:BP","response to protozoan",20972,339,"GO:0051707","CD4__T_cells_Healthy_vs_AChR_MG","Down"

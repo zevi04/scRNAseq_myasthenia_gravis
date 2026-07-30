@@ -1,0 +1,8 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.000143426511242645,7,48,3,0.0625,0.428571428571429,"GO:0004908","GO:MF","interleukin-1 receptor activity",20208,1122,"GO:0004896","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.00039431202487934,40,48,4,0.0833333333333333,0.1,"GO:0016799","GO:MF","hydrolase activity, hydrolyzing N-glycosyl compounds",20208,2902,"GO:0016798","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.000753524808730148,16,48,3,0.0625,0.1875,"GO:0061809","GO:MF","NAD+ nucleosidase activity, cyclic ADP-ribose generating",20208,7763,"GO:0016799","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.00487363595218987,32,48,3,0.0625,0.09375,"GO:0071889","GO:MF","14-3-3 protein binding",20208,8070,"GO:0005515","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.007605578926316,15082,48,46,0.958333333333333,0.00304999336957963,"GO:0005515","GO:MF","protein binding",20208,1455,"GO:0005488","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0116444389525592,2060,48,14,0.291666666666667,0.00679611650485437,"GO:0019899","GO:MF","enzyme binding",20208,3454,"GO:0005515","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0130636838580251,133,48,4,0.0833333333333333,0.0300751879699248,"GO:0016798","GO:MF","hydrolase activity, acting on glycosyl bonds",20208,2901,"GO:0016787","Neutrophils_SNMG_Pre_vs_SNMG_Post","Down"

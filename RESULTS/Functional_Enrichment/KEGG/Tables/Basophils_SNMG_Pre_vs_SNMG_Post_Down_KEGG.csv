@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0229398913098217,157,3,2,0.666666666666667,0.0127388535031847,"KEGG:04390","KEGG","Hippo signaling pathway",8716,320,"KEGG:00000","Basophils_SNMG_Pre_vs_SNMG_Post","Down"

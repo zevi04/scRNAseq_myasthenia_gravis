@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0338967086369971,21,15,2,0.133333333333333,0.0952380952380952,"WP:WP4884","WP","Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex",8899,576,"WP:000000","NK_cells_Healthy_vs_AChR_MG","Down"

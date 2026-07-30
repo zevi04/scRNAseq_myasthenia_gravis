@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.000662912258542593,61,17,4,0.235294117647059,0.0655737704918033,"WP:WP5072","WP","Modulators of TCR signaling and T cell activation",8899,639,"WP:000000","T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0267584799099298,75,17,3,0.176470588235294,0.04,"WP:WP69","WP","T cell receptor signaling",8899,962,"WP:000000","T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0295093897217866,89,17,3,0.176470588235294,0.0337078651685393,"WP:WP231","WP","TNF alpha signaling",8899,102,"WP:000000","T_cells_Healthy_vs_SNMG_Pre","Up"

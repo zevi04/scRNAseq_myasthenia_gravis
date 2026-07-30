@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00453030107522267,133,4,2,0.5,0.0150375939849624,"KEGG:04380","KEGG","Osteoclast differentiation",8716,318,"KEGG:00000","CD4__T_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.00453030107522267,114,4,2,0.5,0.0175438596491228,"KEGG:04928","KEGG","Parathyroid hormone synthesis, secretion and action",8716,399,"KEGG:00000","CD4__T_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.00453030107522267,92,4,2,0.5,0.0217391304347826,"KEGG:04657","KEGG","IL-17 signaling pathway",8716,348,"KEGG:00000","CD4__T_cells_SNMG_Pre_vs_SNMG_Post","Up"

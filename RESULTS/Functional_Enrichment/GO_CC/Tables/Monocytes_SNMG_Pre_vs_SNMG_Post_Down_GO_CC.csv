@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0123664438070552,90,22,3,0.136363636363636,0.0333333333333333,"GO:0035579","GO:CC","specific granule membrane",22155,1589,"GO:0030667;GO:0042581","Monocytes_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0303060333792083,158,22,3,0.136363636363636,0.0189873417721519,"GO:0042581","GO:CC","specific granule",22155,1760,"GO:0030141","Monocytes_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0303060333792083,4032,22,11,0.5,0.0027281746031746,"GO:0031982","GO:CC","vesicle",22155,1199,"GO:0043227","Monocytes_SNMG_Pre_vs_SNMG_Post","Down"

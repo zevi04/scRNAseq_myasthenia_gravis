@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0409237944783184,1,20,1,0.05,1,"GO:0097141","GO:CC","BIM-BCL-2 complex",22155,2859,"GO:0097136","CD8__T_cells_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0409237944783184,1,20,1,0.05,1,"GO:0034693","GO:CC","U11/U12 snRNP",22155,1504,"GO:0097525","CD8__T_cells_SNMG_Pre_vs_SNMG_Post","Down"
+"query_1",TRUE,0.0409237944783184,1,20,1,0.05,1,"GO:0097140","GO:CC","BIM-BCL-xl complex",22155,2858,"GO:0097136","CD8__T_cells_SNMG_Pre_vs_SNMG_Post","Down"

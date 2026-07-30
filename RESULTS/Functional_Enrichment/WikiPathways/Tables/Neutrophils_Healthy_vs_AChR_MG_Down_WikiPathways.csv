@@ -1,0 +1,8 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0377421997380228,49,8,2,0.25,0.0408163265306122,"WP:WP5477","WP","Molecular pathway for oxidative stress",8899,862,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0377421997380228,2,8,1,0.125,0.5,"WP:WP5154","WP","Docosahexaenoic acid oxylipin metabolism",8899,691,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0377421997380228,2,8,1,0.125,0.5,"WP:WP5513","WP","NSAIDs mechanism of action",8899,887,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0392011161384342,86,8,2,0.25,0.0232558139534884,"WP:WP15","WP","Selenium micronutrient network",8899,25,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0452550198413785,4,8,1,0.125,0.25,"WP:WP5155","WP","Arachidonic acid AA ARA oxylipin metabolism",8899,692,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0462608500065314,115,8,2,0.25,0.0173913043478261,"WP:WP2431","WP","Spinal cord injury",8899,121,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.048449391450386,6,8,1,0.125,0.166666666666667,"WP:WP4586","WP","Metabolism of alpha linolenic acid",8899,489,"WP:000000","Neutrophils_Healthy_vs_AChR_MG","Down"

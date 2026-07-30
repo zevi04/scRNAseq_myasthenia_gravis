@@ -1,0 +1,7 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0262095562247956,67,9,2,0.222222222222222,0.0298507462686567,"GO:0031093","GO:CC","platelet alpha granule lumen",22155,1020,"GO:0031091;GO:0034774","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0262095562247956,92,9,2,0.222222222222222,0.0217391304347826,"GO:0031091","GO:CC","platelet alpha granule",22155,1018,"GO:0030141","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0353291483522767,3,9,1,0.111111111111111,0.333333333333333,"GO:0097129","GO:CC","cyclin D2-CDK4 complex",22155,2847,"GO:0000307","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0423720204555994,6,9,1,0.111111111111111,0.166666666666667,"GO:0098556","GO:CC","cytoplasmic side of rough endoplasmic reticulum membrane",22155,3122,"GO:0030867;GO:0098554","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0423720204555994,5,9,1,0.111111111111111,0.2,"GO:1990779","GO:CC","glycoprotein Ib-IX-V complex",22155,4022,"GO:0090665;GO:0098802","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0430217963445301,206,9,2,0.222222222222222,0.00970873786407767,"GO:0098562","GO:CC","cytoplasmic side of membrane",22155,3128,"GO:0098552","CD4__T_cells_Healthy_vs_SNMG_Pre","Up"

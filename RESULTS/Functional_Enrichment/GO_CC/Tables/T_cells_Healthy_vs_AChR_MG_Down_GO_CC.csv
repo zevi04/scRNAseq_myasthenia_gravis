@@ -1,0 +1,2 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0302551872124645,12601,15,15,1,0.00119038171573685,"GO:0005737","GO:CC","cytoplasm",22155,304,"GO:0005622;GO:0110165","T_cells_Healthy_vs_AChR_MG","Down"

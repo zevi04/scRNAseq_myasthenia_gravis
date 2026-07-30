@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.000839804262857086,3,26,2,0.0769230769230769,0.666666666666667,"GO:0001730","GO:MF","2'-5'-oligoadenylate synthetase activity",20208,230,"GO:0070566","Neutrophils_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0109899588690232,76,26,3,0.115384615384615,0.0394736842105263,"GO:0003725","GO:MF","double-stranded RNA binding",20208,335,"GO:0003723","Neutrophils_Healthy_vs_AChR_MG","Up"
+"query_1",TRUE,0.0424389256930555,31,26,2,0.0769230769230769,0.0645161290322581,"GO:0070566","GO:MF","adenylyltransferase activity",20208,7946,"GO:0016779","Neutrophils_Healthy_vs_AChR_MG","Up"

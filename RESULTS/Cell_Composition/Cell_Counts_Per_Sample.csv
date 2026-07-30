@@ -1,0 +1,395 @@
+"Sample","Condition","Cell_Type","n"
+"A1","AChR_MG","B cells",1145
+"A1","AChR_MG","Basophils",25
+"A1","AChR_MG","CD4+ T cells",2141
+"A1","AChR_MG","CD8+ T cells",185
+"A1","AChR_MG","Dendritic cells",37
+"A1","AChR_MG","Monocytes",1146
+"A1","AChR_MG","NK cells",484
+"A1","AChR_MG","Neutrophils",20
+"A1","AChR_MG","Progenitors",8
+"A1","AChR_MG","T cells",269
+"A10","AChR_MG","B cells",1524
+"A10","AChR_MG","Basophils",115
+"A10","AChR_MG","CD4+ T cells",3369
+"A10","AChR_MG","CD8+ T cells",526
+"A10","AChR_MG","Dendritic cells",127
+"A10","AChR_MG","Monocytes",2363
+"A10","AChR_MG","NK cells",2749
+"A10","AChR_MG","Neutrophils",551
+"A10","AChR_MG","Progenitors",17
+"A10","AChR_MG","T cells",1698
+"A2","AChR_MG","B cells",1189
+"A2","AChR_MG","Basophils",22
+"A2","AChR_MG","CD4+ T cells",2103
+"A2","AChR_MG","CD8+ T cells",335
+"A2","AChR_MG","Dendritic cells",95
+"A2","AChR_MG","Monocytes",2776
+"A2","AChR_MG","NK cells",585
+"A2","AChR_MG","Neutrophils",88
+"A2","AChR_MG","Progenitors",5
+"A2","AChR_MG","T cells",512
+"A3","AChR_MG","B cells",1446
+"A3","AChR_MG","Basophils",6
+"A3","AChR_MG","CD4+ T cells",2739
+"A3","AChR_MG","CD8+ T cells",142
+"A3","AChR_MG","Dendritic cells",83
+"A3","AChR_MG","Monocytes",1950
+"A3","AChR_MG","NK cells",1085
+"A3","AChR_MG","Neutrophils",30
+"A3","AChR_MG","Progenitors",2
+"A3","AChR_MG","T cells",823
+"A4","AChR_MG","B cells",1156
+"A4","AChR_MG","Basophils",68
+"A4","AChR_MG","CD4+ T cells",1536
+"A4","AChR_MG","CD8+ T cells",173
+"A4","AChR_MG","Dendritic cells",152
+"A4","AChR_MG","Monocytes",2865
+"A4","AChR_MG","NK cells",1859
+"A4","AChR_MG","Neutrophils",213
+"A4","AChR_MG","Progenitors",3
+"A4","AChR_MG","T cells",1946
+"A5","AChR_MG","B cells",1701
+"A5","AChR_MG","Basophils",23
+"A5","AChR_MG","CD4+ T cells",3425
+"A5","AChR_MG","CD8+ T cells",156
+"A5","AChR_MG","Dendritic cells",128
+"A5","AChR_MG","Monocytes",2533
+"A5","AChR_MG","NK cells",2399
+"A5","AChR_MG","Neutrophils",3
+"A5","AChR_MG","Progenitors",14
+"A5","AChR_MG","T cells",1894
+"A6","AChR_MG","B cells",2662
+"A6","AChR_MG","Basophils",60
+"A6","AChR_MG","CD4+ T cells",3994
+"A6","AChR_MG","CD8+ T cells",360
+"A6","AChR_MG","Dendritic cells",135
+"A6","AChR_MG","Monocytes",2452
+"A6","AChR_MG","NK cells",1924
+"A6","AChR_MG","Neutrophils",4
+"A6","AChR_MG","Progenitors",24
+"A6","AChR_MG","T cells",1298
+"A7","AChR_MG","B cells",551
+"A7","AChR_MG","Basophils",24
+"A7","AChR_MG","CD4+ T cells",2953
+"A7","AChR_MG","CD8+ T cells",145
+"A7","AChR_MG","Dendritic cells",56
+"A7","AChR_MG","Monocytes",1911
+"A7","AChR_MG","NK cells",3441
+"A7","AChR_MG","Neutrophils",277
+"A7","AChR_MG","Progenitors",2
+"A7","AChR_MG","T cells",1030
+"A8","AChR_MG","B cells",1173
+"A8","AChR_MG","Basophils",63
+"A8","AChR_MG","CD4+ T cells",3458
+"A8","AChR_MG","CD8+ T cells",528
+"A8","AChR_MG","Dendritic cells",134
+"A8","AChR_MG","Monocytes",1509
+"A8","AChR_MG","NK cells",3192
+"A8","AChR_MG","Neutrophils",10
+"A8","AChR_MG","Progenitors",12
+"A8","AChR_MG","T cells",1492
+"A9","AChR_MG","B cells",1797
+"A9","AChR_MG","Basophils",31
+"A9","AChR_MG","CD4+ T cells",4475
+"A9","AChR_MG","CD8+ T cells",1351
+"A9","AChR_MG","Dendritic cells",146
+"A9","AChR_MG","Monocytes",2015
+"A9","AChR_MG","NK cells",1627
+"A9","AChR_MG","Neutrophils",54
+"A9","AChR_MG","Progenitors",20
+"A9","AChR_MG","T cells",2364
+"H1","Healthy","B cells",879
+"H1","Healthy","Basophils",14
+"H1","Healthy","CD4+ T cells",3681
+"H1","Healthy","CD8+ T cells",733
+"H1","Healthy","Dendritic cells",39
+"H1","Healthy","Monocytes",1277
+"H1","Healthy","NK cells",683
+"H1","Healthy","Neutrophils",27
+"H1","Healthy","Progenitors",2
+"H1","Healthy","T cells",1004
+"H10","Healthy","B cells",945
+"H10","Healthy","Basophils",135
+"H10","Healthy","CD4+ T cells",2514
+"H10","Healthy","CD8+ T cells",1492
+"H10","Healthy","Dendritic cells",68
+"H10","Healthy","Monocytes",1483
+"H10","Healthy","NK cells",1127
+"H10","Healthy","Neutrophils",326
+"H10","Healthy","Progenitors",1
+"H10","Healthy","T cells",1813
+"H2","Healthy","B cells",1003
+"H2","Healthy","Basophils",13
+"H2","Healthy","CD4+ T cells",2620
+"H2","Healthy","CD8+ T cells",267
+"H2","Healthy","Dendritic cells",67
+"H2","Healthy","Monocytes",1592
+"H2","Healthy","NK cells",977
+"H2","Healthy","Neutrophils",14
+"H2","Healthy","Progenitors",6
+"H2","Healthy","T cells",2142
+"H3","Healthy","B cells",1087
+"H3","Healthy","Basophils",16
+"H3","Healthy","CD4+ T cells",2810
+"H3","Healthy","CD8+ T cells",765
+"H3","Healthy","Dendritic cells",80
+"H3","Healthy","Monocytes",1630
+"H3","Healthy","NK cells",761
+"H3","Healthy","Neutrophils",89
+"H3","Healthy","Progenitors",4
+"H3","Healthy","T cells",683
+"H4","Healthy","B cells",1198
+"H4","Healthy","Basophils",20
+"H4","Healthy","CD4+ T cells",2353
+"H4","Healthy","CD8+ T cells",1384
+"H4","Healthy","Dendritic cells",152
+"H4","Healthy","Monocytes",1894
+"H4","Healthy","NK cells",588
+"H4","Healthy","Neutrophils",14
+"H4","Healthy","Progenitors",4
+"H4","Healthy","T cells",676
+"H5","Healthy","B cells",500
+"H5","Healthy","Basophils",54
+"H5","Healthy","CD4+ T cells",1686
+"H5","Healthy","CD8+ T cells",354
+"H5","Healthy","Dendritic cells",93
+"H5","Healthy","Monocytes",1972
+"H5","Healthy","NK cells",2588
+"H5","Healthy","Neutrophils",81
+"H5","Healthy","Progenitors",5
+"H5","Healthy","T cells",1476
+"H6","Healthy","B cells",1273
+"H6","Healthy","Basophils",27
+"H6","Healthy","CD4+ T cells",2904
+"H6","Healthy","CD8+ T cells",416
+"H6","Healthy","Dendritic cells",66
+"H6","Healthy","Monocytes",2151
+"H6","Healthy","NK cells",717
+"H6","Healthy","Neutrophils",8
+"H6","Healthy","Progenitors",4
+"H6","Healthy","T cells",799
+"H7","Healthy","B cells",600
+"H7","Healthy","Basophils",14
+"H7","Healthy","CD4+ T cells",3817
+"H7","Healthy","CD8+ T cells",805
+"H7","Healthy","Dendritic cells",105
+"H7","Healthy","Monocytes",1240
+"H7","Healthy","NK cells",2753
+"H7","Healthy","Neutrophils",12
+"H7","Healthy","Progenitors",7
+"H7","Healthy","T cells",1521
+"H8","Healthy","B cells",1422
+"H8","Healthy","Basophils",23
+"H8","Healthy","CD4+ T cells",2316
+"H8","Healthy","CD8+ T cells",715
+"H8","Healthy","Dendritic cells",81
+"H8","Healthy","Monocytes",1289
+"H8","Healthy","NK cells",1802
+"H8","Healthy","Neutrophils",51
+"H8","Healthy","Progenitors",11
+"H8","Healthy","T cells",2538
+"H9","Healthy","B cells",2465
+"H9","Healthy","Basophils",92
+"H9","Healthy","CD4+ T cells",6312
+"H9","Healthy","CD8+ T cells",354
+"H9","Healthy","Dendritic cells",241
+"H9","Healthy","Monocytes",2460
+"H9","Healthy","NK cells",3644
+"H9","Healthy","Neutrophils",58
+"H9","Healthy","Progenitors",12
+"H9","Healthy","T cells",878
+"N10a","SNMG_Pre","B cells",591
+"N10a","SNMG_Pre","Basophils",45
+"N10a","SNMG_Pre","CD4+ T cells",2189
+"N10a","SNMG_Pre","CD8+ T cells",317
+"N10a","SNMG_Pre","Dendritic cells",63
+"N10a","SNMG_Pre","Monocytes",2904
+"N10a","SNMG_Pre","NK cells",2719
+"N10a","SNMG_Pre","Neutrophils",37
+"N10a","SNMG_Pre","Progenitors",33
+"N10a","SNMG_Pre","T cells",1170
+"N10b","SNMG_Post","B cells",539
+"N10b","SNMG_Post","Basophils",110
+"N10b","SNMG_Post","CD4+ T cells",2332
+"N10b","SNMG_Post","CD8+ T cells",339
+"N10b","SNMG_Post","Dendritic cells",88
+"N10b","SNMG_Post","Monocytes",3198
+"N10b","SNMG_Post","NK cells",1932
+"N10b","SNMG_Post","Neutrophils",478
+"N10b","SNMG_Post","Progenitors",35
+"N10b","SNMG_Post","T cells",1268
+"N1a","SNMG_Pre","B cells",924
+"N1a","SNMG_Pre","Basophils",15
+"N1a","SNMG_Pre","CD4+ T cells",2217
+"N1a","SNMG_Pre","CD8+ T cells",53
+"N1a","SNMG_Pre","Dendritic cells",72
+"N1a","SNMG_Pre","Monocytes",1909
+"N1a","SNMG_Pre","NK cells",2150
+"N1a","SNMG_Pre","Progenitors",14
+"N1a","SNMG_Pre","T cells",1614
+"N1b","SNMG_Post","B cells",1292
+"N1b","SNMG_Post","Basophils",5
+"N1b","SNMG_Post","CD4+ T cells",2929
+"N1b","SNMG_Post","CD8+ T cells",112
+"N1b","SNMG_Post","Dendritic cells",94
+"N1b","SNMG_Post","Monocytes",1804
+"N1b","SNMG_Post","NK cells",2203
+"N1b","SNMG_Post","Progenitors",19
+"N1b","SNMG_Post","T cells",1925
+"N2a","SNMG_Pre","B cells",354
+"N2a","SNMG_Pre","Basophils",50
+"N2a","SNMG_Pre","CD4+ T cells",3758
+"N2a","SNMG_Pre","CD8+ T cells",716
+"N2a","SNMG_Pre","Dendritic cells",63
+"N2a","SNMG_Pre","Monocytes",1872
+"N2a","SNMG_Pre","NK cells",999
+"N2a","SNMG_Pre","Neutrophils",21
+"N2a","SNMG_Pre","Progenitors",4
+"N2a","SNMG_Pre","T cells",696
+"N2b","SNMG_Post","B cells",415
+"N2b","SNMG_Post","Basophils",81
+"N2b","SNMG_Post","CD4+ T cells",4864
+"N2b","SNMG_Post","CD8+ T cells",699
+"N2b","SNMG_Post","Dendritic cells",77
+"N2b","SNMG_Post","Monocytes",2322
+"N2b","SNMG_Post","NK cells",727
+"N2b","SNMG_Post","Neutrophils",14
+"N2b","SNMG_Post","Progenitors",6
+"N2b","SNMG_Post","T cells",995
+"N3a","SNMG_Pre","B cells",787
+"N3a","SNMG_Pre","Basophils",8
+"N3a","SNMG_Pre","CD4+ T cells",3657
+"N3a","SNMG_Pre","CD8+ T cells",6
+"N3a","SNMG_Pre","Dendritic cells",113
+"N3a","SNMG_Pre","Monocytes",3208
+"N3a","SNMG_Pre","NK cells",2352
+"N3a","SNMG_Pre","Progenitors",11
+"N3a","SNMG_Pre","T cells",13
+"N3b","SNMG_Post","B cells",895
+"N3b","SNMG_Post","Basophils",4
+"N3b","SNMG_Post","CD4+ T cells",4333
+"N3b","SNMG_Post","CD8+ T cells",128
+"N3b","SNMG_Post","Dendritic cells",147
+"N3b","SNMG_Post","Monocytes",3067
+"N3b","SNMG_Post","NK cells",3362
+"N3b","SNMG_Post","Progenitors",20
+"N3b","SNMG_Post","T cells",381
+"N4a","SNMG_Pre","B cells",1774
+"N4a","SNMG_Pre","Basophils",4
+"N4a","SNMG_Pre","CD4+ T cells",2648
+"N4a","SNMG_Pre","CD8+ T cells",7
+"N4a","SNMG_Pre","Dendritic cells",48
+"N4a","SNMG_Pre","Monocytes",1693
+"N4a","SNMG_Pre","NK cells",3960
+"N4a","SNMG_Pre","Progenitors",14
+"N4a","SNMG_Pre","T cells",139
+"N4b","SNMG_Post","B cells",840
+"N4b","SNMG_Post","Basophils",27
+"N4b","SNMG_Post","CD4+ T cells",1163
+"N4b","SNMG_Post","CD8+ T cells",399
+"N4b","SNMG_Post","Dendritic cells",16
+"N4b","SNMG_Post","Monocytes",1395
+"N4b","SNMG_Post","NK cells",3951
+"N4b","SNMG_Post","Neutrophils",45
+"N4b","SNMG_Post","Progenitors",8
+"N4b","SNMG_Post","T cells",1363
+"N5a","SNMG_Pre","B cells",2183
+"N5a","SNMG_Pre","Basophils",63
+"N5a","SNMG_Pre","CD4+ T cells",5081
+"N5a","SNMG_Pre","CD8+ T cells",677
+"N5a","SNMG_Pre","Dendritic cells",91
+"N5a","SNMG_Pre","Monocytes",1357
+"N5a","SNMG_Pre","NK cells",819
+"N5a","SNMG_Pre","Progenitors",9
+"N5a","SNMG_Pre","T cells",1844
+"N5b","SNMG_Post","B cells",1876
+"N5b","SNMG_Post","Basophils",47
+"N5b","SNMG_Post","CD4+ T cells",4178
+"N5b","SNMG_Post","CD8+ T cells",574
+"N5b","SNMG_Post","Dendritic cells",89
+"N5b","SNMG_Post","Monocytes",1134
+"N5b","SNMG_Post","NK cells",647
+"N5b","SNMG_Post","Neutrophils",2
+"N5b","SNMG_Post","Progenitors",3
+"N5b","SNMG_Post","T cells",1640
+"N6a","SNMG_Pre","B cells",763
+"N6a","SNMG_Pre","Basophils",40
+"N6a","SNMG_Pre","CD4+ T cells",2768
+"N6a","SNMG_Pre","CD8+ T cells",533
+"N6a","SNMG_Pre","Dendritic cells",77
+"N6a","SNMG_Pre","Monocytes",2045
+"N6a","SNMG_Pre","NK cells",2296
+"N6a","SNMG_Pre","Neutrophils",61
+"N6a","SNMG_Pre","Progenitors",8
+"N6a","SNMG_Pre","T cells",1732
+"N6b","SNMG_Post","B cells",625
+"N6b","SNMG_Post","Basophils",32
+"N6b","SNMG_Post","CD4+ T cells",3025
+"N6b","SNMG_Post","CD8+ T cells",589
+"N6b","SNMG_Post","Dendritic cells",79
+"N6b","SNMG_Post","Monocytes",2508
+"N6b","SNMG_Post","NK cells",1774
+"N6b","SNMG_Post","Neutrophils",141
+"N6b","SNMG_Post","Progenitors",1
+"N6b","SNMG_Post","T cells",2162
+"N7a","SNMG_Pre","B cells",649
+"N7a","SNMG_Pre","Basophils",15
+"N7a","SNMG_Pre","CD4+ T cells",2396
+"N7a","SNMG_Pre","CD8+ T cells",1052
+"N7a","SNMG_Pre","Dendritic cells",53
+"N7a","SNMG_Pre","Monocytes",2764
+"N7a","SNMG_Pre","NK cells",2935
+"N7a","SNMG_Pre","Neutrophils",2
+"N7a","SNMG_Pre","Progenitors",11
+"N7a","SNMG_Pre","T cells",1702
+"N7b","SNMG_Post","B cells",651
+"N7b","SNMG_Post","Basophils",14
+"N7b","SNMG_Post","CD4+ T cells",2016
+"N7b","SNMG_Post","CD8+ T cells",959
+"N7b","SNMG_Post","Dendritic cells",55
+"N7b","SNMG_Post","Monocytes",4048
+"N7b","SNMG_Post","NK cells",2668
+"N7b","SNMG_Post","Neutrophils",13
+"N7b","SNMG_Post","Progenitors",11
+"N7b","SNMG_Post","T cells",1446
+"N8a","SNMG_Pre","B cells",471
+"N8a","SNMG_Pre","Basophils",88
+"N8a","SNMG_Pre","CD4+ T cells",2951
+"N8a","SNMG_Pre","CD8+ T cells",685
+"N8a","SNMG_Pre","Dendritic cells",113
+"N8a","SNMG_Pre","Monocytes",3275
+"N8a","SNMG_Pre","NK cells",2074
+"N8a","SNMG_Pre","Neutrophils",359
+"N8a","SNMG_Pre","Progenitors",12
+"N8a","SNMG_Pre","T cells",1618
+"N8b","SNMG_Post","B cells",859
+"N8b","SNMG_Post","Basophils",73
+"N8b","SNMG_Post","CD4+ T cells",5197
+"N8b","SNMG_Post","CD8+ T cells",1285
+"N8b","SNMG_Post","Dendritic cells",143
+"N8b","SNMG_Post","Monocytes",4419
+"N8b","SNMG_Post","NK cells",1195
+"N8b","SNMG_Post","Neutrophils",162
+"N8b","SNMG_Post","Progenitors",16
+"N8b","SNMG_Post","T cells",1850
+"N9a","SNMG_Pre","B cells",310
+"N9a","SNMG_Pre","Basophils",63
+"N9a","SNMG_Pre","CD4+ T cells",1179
+"N9a","SNMG_Pre","CD8+ T cells",183
+"N9a","SNMG_Pre","Dendritic cells",64
+"N9a","SNMG_Pre","Monocytes",3571
+"N9a","SNMG_Pre","NK cells",3821
+"N9a","SNMG_Pre","Neutrophils",127
+"N9a","SNMG_Pre","Progenitors",16
+"N9a","SNMG_Pre","T cells",2352
+"N9b","SNMG_Post","B cells",433
+"N9b","SNMG_Post","Basophils",77
+"N9b","SNMG_Post","CD4+ T cells",889
+"N9b","SNMG_Post","CD8+ T cells",139
+"N9b","SNMG_Post","Dendritic cells",48
+"N9b","SNMG_Post","Monocytes",2754
+"N9b","SNMG_Post","NK cells",2655
+"N9b","SNMG_Post","Neutrophils",1281
+"N9b","SNMG_Post","Progenitors",15
+"N9b","SNMG_Post","T cells",2746

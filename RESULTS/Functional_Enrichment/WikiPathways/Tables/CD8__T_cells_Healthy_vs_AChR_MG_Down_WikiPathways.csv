@@ -1,0 +1,5 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0312457093698111,27,5,1,0.2,0.037037037037037,"WP:WP5092","WP","Interactions of natural killer cells in pancreatic cancer",8899,649,"WP:000000","CD8__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0312457093698111,8,5,1,0.2,0.125,"WP:WP5519","WP","LncRNA like NMRK2 in translocation renal cell carcinoma",8899,892,"WP:000000","CD8__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0312457093698111,31,5,1,0.2,0.032258064516129,"WP:WP5564","WP","FACT complex and DNA double strand break repair",8899,921,"WP:000000","CD8__T_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0312457093698111,32,5,1,0.2,0.03125,"WP:WP5572","WP","Nucleosome remodeling complex",8899,929,"WP:000000","CD8__T_cells_Healthy_vs_AChR_MG","Down"

@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0061628681555238,71,12,3,0.25,0.0422535211267606,"KEGG:04612","KEGG","Antigen processing and presentation",8716,335,"KEGG:00000","NK_cells_Healthy_vs_AChR_MG","Down"
+"query_1",TRUE,0.0304001348005955,36,12,2,0.166666666666667,0.0555555555555556,"KEGG:05340","KEGG","Primary immunodeficiency",8716,504,"KEGG:00000","NK_cells_Healthy_vs_AChR_MG","Down"

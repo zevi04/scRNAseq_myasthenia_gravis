@@ -1,0 +1,4 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.0129733428223685,731,9,4,0.444444444444444,0.00547195622435021,"GO:0098552","GO:CC","side of membrane",22155,3118,"GO:0016020;GO:0110165","NK_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0406082164968698,3,9,1,0.111111111111111,0.333333333333333,"GO:0097129","GO:CC","cyclin D2-CDK4 complex",22155,2847,"GO:0000307","NK_cells_Healthy_vs_SNMG_Pre","Up"
+"query_1",TRUE,0.0406082164968698,2,9,1,0.111111111111111,0.5,"GO:0005893","GO:CC","interleukin-2 receptor complex",22155,414,"GO:0098802","NK_cells_Healthy_vs_SNMG_Pre","Up"

@@ -1,0 +1,7 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,7.84318827113709e-05,20,9,3,0.333333333333333,0.15,"WP:WP516","WP","Exercise and hypertrophy in skeletal muscle",8899,695,"WP:000000","Dendritic_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.000440308474787916,5,9,2,0.222222222222222,0.4,"WP:WP3596","WP","miR 517 relationship with ARCN1 and USP1",8899,238,"WP:000000","Dendritic_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.0212080978725097,183,9,3,0.333333333333333,0.0163934426229508,"WP:WP2877","WP","Vitamin D receptor pathway",8899,188,"WP:000000","Dendritic_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.0273523839012548,53,9,2,0.222222222222222,0.0377358490566038,"WP:WP2864","WP","Apoptosis related network due to altered Notch3 in ovarian cancer",8899,180,"WP:000000","Dendritic_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.0273523839012548,57,9,2,0.222222222222222,0.0350877192982456,"WP:WP4879","WP","Overlap between signal transduction pathways contributing to LMNA laminopathies",8899,573,"WP:000000","Dendritic_cells_SNMG_Pre_vs_SNMG_Post","Up"
+"query_1",TRUE,0.0490063664661837,3,9,1,0.111111111111111,0.333333333333333,"WP:WP4299","WP","Lamin A processing pathway",8899,407,"WP:000000","Dendritic_cells_SNMG_Pre_vs_SNMG_Post","Up"

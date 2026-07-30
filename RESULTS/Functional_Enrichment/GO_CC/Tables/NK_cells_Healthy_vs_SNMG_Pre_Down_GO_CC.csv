@@ -1,0 +1,3 @@
+"query","significant","p_value","term_size","query_size","intersection_size","precision","recall","term_id","source","term_name","effective_domain_size","source_order","parents","Comparison","Direction"
+"query_1",TRUE,0.00644522778957364,6,37,2,0.0540540540540541,0.333333333333333,"GO:0035976","GO:CC","transcription factor AP-1 complex",22155,1621,"GO:0090575","NK_cells_Healthy_vs_SNMG_Pre","Down"
+"query_1",TRUE,0.0402225662796682,20,37,2,0.0540540540540541,0.1,"GO:0000164","GO:CC","protein phosphatase type 1 complex",22155,27,"GO:0005737;GO:0008287","NK_cells_Healthy_vs_SNMG_Pre","Down"
