@@ -1,0 +1,14 @@
+SCRIPT 26 FIGURE LEGENDS
+========================
+
+Figure 26A
+Figure 26A. Direction of significant transcriptional changes across immune cell types and MG-related comparisons. Significant DEGs were defined using adjusted P < 0.05 and |average log2 fold-change| >= 0.5. Positive/rightward bars indicate the number of upregulated DEGs and negative/leftward bars indicate the number of downregulated DEGs. Panels correspond to individual comparisons. DEG direction represents transcript-level change and should not alone be interpreted as direct physiological activation or inhibition.
+
+Figure 26B
+Figure 26B. Net transcriptional direction across immune cell types. Each cell represents (number of upregulated DEGs - number of downregulated DEGs) / total significant DEGs for a given cell type and comparison. Values approaching +1 indicate predominantly upregulated significant changes, values approaching -1 indicate predominantly downregulated changes, and values near zero indicate a mixed directional profile.
+
+Figure 26C
+Figure 26C. Relative transcriptional perturbation across immune cell types. The descriptive perturbation score combines significant-DEG burden with mean absolute log2 fold-change [log(1 + number of significant DEGs) x mean |log2FC|]. Bar colour denotes directional bias. This metric is intended for within-analysis ranking and is not a direct experimental measurement of immune-cell activation.
+
+Figure 26D
+Figure 26D. Targeted examination of acetylcholine-receptor (AChR)-related, MuSK and neuromuscular-junction-associated genes represented in the DEG dataset. Points show average log2 fold-change by immune cell type and comparison, with colour indicating whether the transcript passes the Script 26 DEG thresholds. AChR-positive or MuSK-positive clinical status denotes autoantibody status and is not interpreted as receptor-gene overexpression.

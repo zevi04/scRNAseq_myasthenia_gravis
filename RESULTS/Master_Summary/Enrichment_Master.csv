@@ -1,0 +1,186 @@
+"Cell_Type","Comparison","Direction","Database","Enriched_Terms","Top_Term","Lowest_P","Largest_Intersection","Mean_Precision","Max_Precision","Mean_Recall","Max_Recall"
+"B_cells_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",2,"immune system process",0.000530197467898984,19,0.427,0.463,0.007,0.008
+"B_cells_Up_GO_BP","Healthy_vs_AChR_MG","Up","GO_BP",51,"positive regulation of leukocyte activation",0.0163698400716081,7,0.301,0.875,0.043,0.333
+"B_cells_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",335,"immune system process",4.28404053729924e-06,78,0.13,0.848,0.105,1
+"B_cells_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",134,"humoral immune response",2.6061211445845e-05,21,0.158,0.84,0.094,1
+"B_cells_Up_GO_BP","SNMG_Pre_vs_SNMG_Post","Up","GO_BP",74,"response to amphetamine",0.0133413595258209,6,0.396,1,0.08,0.5
+"Basophils_Up_GO_BP","Healthy_vs_AChR_MG","Up","GO_BP",119,"cell surface receptor protein tyrosine kinase signaling pathway",0.0160398016134978,3,0.276,0.6,0.066,1
+"Basophils_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",108,"response to virus",6.06954776250327e-06,10,0.262,1,0.058,0.5
+"CD4__T_cells_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",1,"response to protozoan",0.00241703581240862,3,0.15,0.15,0.1,0.1
+"CD4__T_cells_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",328,"response to ketone",3.70057126479057e-06,26,0.171,0.929,0.1,1
+"CD4__T_cells_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",8,"regulation of apoptotic signaling pathway",0.0417897932507564,8,0.486,0.889,0.013,0.03
+"CD4__T_cells_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",58,"chemokine (C-C motif) ligand 21 signaling pathway",0.0258066555553609,2,0.267,0.5,0.119,1
+"CD4__T_cells_Up_GO_BP","SNMG_Pre_vs_SNMG_Post","Up","GO_BP",102,"positive regulation of biosynthetic process",0.00274007729967275,5,0.451,1,0.046,1
+"CD8__T_cells_Up_GO_BP","Healthy_vs_AChR_MG","Up","GO_BP",146,"nucleotide-binding oligomerization domain containing 1 signaling pathway",0.0010324907271772,4,0.236,0.667,0.107,1
+"CD8__T_cells_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",2,"reactive oxygen species metabolic process",0.0383361058283784,3,0.312,0.375,0.026,0.038
+"CD8__T_cells_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",83,"response to molecule of bacterial origin",0.0233434573213802,19,0.138,0.95,0.355,1
+"Dendritic_cells_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",179,"negative regulation of myeloid leukocyte mediated immunity",0.000992349392569041,27,0.137,0.818,0.189,1
+"Dendritic_cells_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",544,"response to stimulus",9.04380538771543e-10,67,0.127,0.931,0.099,1
+"Dendritic_cells_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",92,"response to virus",9.79554078901037e-11,14,0.238,0.824,0.093,1
+"Dendritic_cells_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",144,"myeloid cell differentiation",0.01394003803422,5,0.272,0.833,0.065,1
+"Dendritic_cells_Up_GO_BP","SNMG_Pre_vs_SNMG_Post","Up","GO_BP",178,"regulation of macromolecule biosynthetic process",0.000277303313842047,13,0.34,1,0.096,1
+"Monocytes_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",52,"negative regulation of dendritic cell differentiation",0.000177170311702017,4,0.423,1,0.051,0.333
+"Monocytes_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",266,"response to lipid",4.19905320363927e-06,44,0.177,0.846,0.084,1
+"Monocytes_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",493,"response to virus",3.83814527617048e-08,45,0.113,0.833,0.113,1
+"Monocytes_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",110,"microglial cell activation",0.00388713241917392,19,0.238,0.905,0.109,1
+"Monocytes_Up_GO_BP","SNMG_Pre_vs_SNMG_Post","Up","GO_BP",180,"regulation of multicellular organismal development",0.000173486108160597,16,0.269,1,0.087,1
+"Neutrophils_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",324,"positive regulation of fibroblast growth factor production",0.00150131030242774,9,0.242,0.818,0.077,1
+"Neutrophils_Up_GO_BP","Healthy_vs_AChR_MG","Up","GO_BP",176,"response to virus",1.32686857799632e-16,26,0.243,1,0.094,1
+"Neutrophils_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",235,"defense response to virus",2.11819112805583e-31,33,0.207,0.971,0.12,1
+"Neutrophils_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",217,"leukocyte activation",3.08075797934154e-07,40,0.195,0.851,0.097,1
+"Neutrophils_Up_GO_BP","SNMG_Pre_vs_SNMG_Post","Up","GO_BP",217,"cellular response to phorbol 13-acetate 12-myristate",0.00150301222485122,8,0.304,1,0.061,1
+"NK_cells_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",215,"cell activation",0.000202265550817842,18,0.161,0.857,0.108,1
+"NK_cells_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",379,"immune system process",8.45896918813494e-06,33,0.175,0.892,0.072,1
+"NK_cells_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",48,"negative regulation of viral genome replication",0.000361058393800145,5,0.297,0.625,0.046,0.2
+"NK_cells_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",37,"defense response",0.0170701094743869,5,0.297,1,0.079,1
+"NK_cells_Up_GO_BP","SNMG_Pre_vs_SNMG_Post","Up","GO_BP",248,"positive regulation of transcription by RNA polymerase II",2.39275260448798e-06,15,0.263,0.938,0.05,1
+"T_cells_Down_GO_BP","Healthy_vs_AChR_MG","Down","GO_BP",103,"positive regulation of defense response to virus by host",0.0255209078615874,11,0.224,0.917,0.097,1
+"T_cells_Up_GO_BP","Healthy_vs_AChR_MG","Up","GO_BP",266,"regulation of tumor necrosis factor superfamily cytokine production",0.00131078919633364,16,0.215,0.941,0.088,1
+"T_cells_Down_GO_BP","Healthy_vs_SNMG_Pre","Down","GO_BP",64,"response to biotic stimulus",0.00948706147578273,13,0.246,0.929,0.082,1
+"T_cells_Up_GO_BP","Healthy_vs_SNMG_Pre","Up","GO_BP",56,"regulation of gene expression",0.0273556768135911,18,0.275,0.75,0.143,1
+"T_cells_Down_GO_BP","SNMG_Pre_vs_SNMG_Post","Down","GO_BP",16,"cytokine production",0.0119481697700905,12,0.375,0.667,0.133,1
+"B_cells_Down_GO_CC","Healthy_vs_AChR_MG","Down","GO_CC",35,"cytoplasm",0.00309773125942892,39,0.211,0.886,0.098,1
+"B_cells_Down_GO_CC","Healthy_vs_SNMG_Pre","Down","GO_CC",41,"immunoglobulin complex, circulating",2.62172304080363e-05,73,0.18,0.745,0.158,1
+"B_cells_Up_GO_CC","Healthy_vs_SNMG_Pre","Up","GO_CC",8,"external side of plasma membrane",6.01476308056508e-05,12,0.245,0.444,0.047,0.176
+"B_cells_Up_GO_CC","SNMG_Pre_vs_SNMG_Post","Up","GO_CC",1,"PCNA-p21 complex",0.0384519907395442,1,0.167,0.167,0.5,0.5
+"Basophils_Down_GO_CC","SNMG_Pre_vs_SNMG_Post","Down","GO_CC",3,"transport vesicle",0.00860428623754963,3,0.389,0.5,0.008,0.009
+"CD4__T_cells_Down_GO_CC","Healthy_vs_AChR_MG","Down","GO_CC",5,"spermatoproteasome complex",0.00168346607017865,2,0.08,0.08,0.189,0.4
+"CD4__T_cells_Down_GO_CC","Healthy_vs_SNMG_Pre","Down","GO_CC",1,"transcription factor AP-1 complex",0.00373116563873688,2,0.071,0.071,0.333,0.333
+"CD4__T_cells_Up_GO_CC","Healthy_vs_SNMG_Pre","Up","GO_CC",6,"platelet alpha granule lumen",0.0262095562247956,2,0.167,0.222,0.127,0.333
+"CD4__T_cells_Up_GO_CC","SNMG_Pre_vs_SNMG_Post","Up","GO_CC",9,"protein serine/threonine phosphatase complex",0.00171485326157396,4,0.422,0.8,0.039,0.167
+"CD8__T_cells_Up_GO_CC","Healthy_vs_AChR_MG","Up","GO_CC",12,"I-kappaB/NF-kappaB complex",0.0387004246871616,2,0.208,0.333,0.078,0.25
+"CD8__T_cells_Down_GO_CC","SNMG_Pre_vs_SNMG_Post","Down","GO_CC",3,"BIM-BCL-2 complex",0.0409237944783184,1,0.05,0.05,1,1
+"Dendritic_cells_Down_GO_CC","Healthy_vs_AChR_MG","Down","GO_CC",1,"cytoplasm",0.0112276606230736,31,0.886,0.886,0.002,0.002
+"Dendritic_cells_Down_GO_CC","Healthy_vs_SNMG_Pre","Down","GO_CC",8,"cytoplasm",2.90483712695628e-05,64,0.27,0.853,0.021,0.065
+"Dendritic_cells_Up_GO_CC","Healthy_vs_SNMG_Pre","Up","GO_CC",1,"perinuclear region of cytoplasm",0.0330672428769147,5,0.263,0.263,0.007,0.007
+"Dendritic_cells_Down_GO_CC","SNMG_Pre_vs_SNMG_Post","Down","GO_CC",10,"Golgi trans cisterna membrane",0.00947867298578153,5,0.483,0.833,0.222,1
+"Dendritic_cells_Up_GO_CC","SNMG_Pre_vs_SNMG_Post","Up","GO_CC",10,"chromatin",0.00281790963438677,11,0.315,0.846,0.141,0.5
+"Monocytes_Down_GO_CC","Healthy_vs_SNMG_Pre","Down","GO_CC",4,"endocytic vesicle",0.0205325466095242,42,0.302,0.792,0.013,0.024
+"Monocytes_Up_GO_CC","Healthy_vs_SNMG_Pre","Up","GO_CC",54,"platelet alpha granule",8.39397308936119e-07,49,0.123,0.875,0.189,1
+"Monocytes_Down_GO_CC","SNMG_Pre_vs_SNMG_Post","Down","GO_CC",3,"specific granule membrane",0.0123664438070552,11,0.258,0.5,0.018,0.033
+"Monocytes_Up_GO_CC","SNMG_Pre_vs_SNMG_Post","Up","GO_CC",4,"chromosome",0.000155549676234874,9,0.297,0.562,0.253,0.5
+"Neutrophils_Up_GO_CC","Healthy_vs_AChR_MG","Up","GO_CC",2,"cytosol",4.17886814605114e-05,25,0.846,0.962,0.003,0.003
+"Neutrophils_Up_GO_CC","Healthy_vs_SNMG_Pre","Up","GO_CC",3,"cytoplasm",3.02295775410385e-06,36,0.604,0.973,0.006,0.01
+"Neutrophils_Down_GO_CC","SNMG_Pre_vs_SNMG_Post","Down","GO_CC",22,"ficolin-1-rich granule membrane",0.00228402205936685,40,0.223,0.816,0.103,0.5
+"Neutrophils_Up_GO_CC","SNMG_Pre_vs_SNMG_Post","Up","GO_CC",1,"transcription factor AP-1 complex",0.000128263456995329,2,0.25,0.25,0.333,0.333
+"NK_cells_Down_GO_CC","Healthy_vs_AChR_MG","Down","GO_CC",13,"macropinosome membrane",0.0410899465421149,11,0.197,0.478,0.17,0.5
+"NK_cells_Down_GO_CC","Healthy_vs_SNMG_Pre","Down","GO_CC",2,"transcription factor AP-1 complex",0.00644522778957364,2,0.054,0.054,0.217,0.333
+"NK_cells_Up_GO_CC","Healthy_vs_SNMG_Pre","Up","GO_CC",3,"side of membrane",0.0129733428223685,4,0.222,0.444,0.28,0.5
+"NK_cells_Up_GO_CC","SNMG_Pre_vs_SNMG_Post","Up","GO_CC",17,"transcription factor AP-1 complex",2.07931740356675e-10,12,0.482,0.8,0.067,0.667
+"T_cells_Down_GO_CC","Healthy_vs_AChR_MG","Down","GO_CC",1,"cytoplasm",0.0302551872124645,15,1,1,0.001,0.001
+"T_cells_Down_GO_CC","Healthy_vs_SNMG_Pre","Down","GO_CC",7,"apolipoprotein B mRNA editing enzyme complex",0.0447545701030263,6,0.224,0.429,0.04,0.2
+"B_cells_Down_GO_MF","Healthy_vs_AChR_MG","Down","GO_MF",1,"threonine-type endopeptidase activity",0.0341943942206981,2,0.045,0.045,0.222,0.222
+"B_cells_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",10,"protein binding",0.00022903934214427,96,0.268,1,0.068,0.235
+"B_cells_Up_GO_MF","Healthy_vs_SNMG_Pre","Up","GO_MF",16,"CXCR chemokine receptor binding",0.0194609966008224,4,0.086,0.167,0.216,1
+"B_cells_Up_GO_MF","SNMG_Pre_vs_SNMG_Post","Up","GO_MF",21,"DNA-binding transcription activator activity",0.00679316699605384,3,0.262,0.5,0.04,0.25
+"Basophils_Up_GO_MF","Healthy_vs_AChR_MG","Up","GO_MF",23,"phosphatidylinositol 3-kinase activator activity",0.0203102945380324,3,0.315,0.75,0.043,0.2
+"Basophils_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",7,"spermidine binding",0.018107157724645,1,0.167,0.167,0.205,0.5
+"CD4__T_cells_Down_GO_MF","Healthy_vs_AChR_MG","Down","GO_MF",14,"threonine-type endopeptidase activity",0.00878693918372474,4,0.08,0.16,0.221,0.5
+"CD4__T_cells_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",27,"DNA-binding transcription activator activity, RNA polymerase II-specific",0.022290038170917,7,0.093,0.25,0.197,1
+"CD4__T_cells_Up_GO_MF","Healthy_vs_SNMG_Pre","Up","GO_MF",19,"CXCR chemokine receptor binding",0.00152940114054084,4,0.222,0.444,0.039,0.2
+"CD4__T_cells_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",18,"C-C motif chemokine 19 receptor activity",0.00315469121140008,2,0.211,0.4,0.253,1
+"CD4__T_cells_Up_GO_MF","SNMG_Pre_vs_SNMG_Post","Up","GO_MF",25,"DNA-binding transcription activator activity, RNA polymerase II-specific",0.00272276636983813,3,0.432,0.6,0.026,0.25
+"CD8__T_cells_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",15,"type 2 angiotensin receptor binding",0.0415594675865028,3,0.126,0.333,0.186,0.5
+"CD8__T_cells_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",8,"delta7-sterol 5(6)-desaturase activity",0.0270783847981029,1,0.053,0.053,0.812,1
+"Dendritic_cells_Down_GO_MF","Healthy_vs_AChR_MG","Down","GO_MF",30,"cytokine binding",0.0167287229158157,4,0.045,0.114,0.448,1
+"Dendritic_cells_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",40,"kinase regulator activity",4.80460722759737e-05,74,0.156,1,0.149,1
+"Dendritic_cells_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",11,"bis(5'-adenosyl)-triphosphatase activity",0.0143966745843489,1,0.167,0.167,0.274,0.5
+"Dendritic_cells_Up_GO_MF","SNMG_Pre_vs_SNMG_Post","Up","GO_MF",31,"DNA-binding transcription factor activity, RNA polymerase II-specific",0.000109724120213782,8,0.315,0.615,0.057,0.5
+"Monocytes_Down_GO_MF","Healthy_vs_AChR_MG","Down","GO_MF",15,"C3HC4-type RING finger domain binding",0.016858349459267,2,0.3,0.5,0.112,0.5
+"Monocytes_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",61,"DNA binding",0.0205397208175776,53,0.144,1,0.251,1
+"Monocytes_Up_GO_MF","Healthy_vs_SNMG_Pre","Up","GO_MF",58,"signaling receptor regulator activity",0.000872332990917515,53,0.109,1,0.136,1
+"Monocytes_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",28,"immune receptor activity",2.07431460898847e-06,6,0.104,0.273,0.317,1
+"Monocytes_Up_GO_MF","SNMG_Pre_vs_SNMG_Post","Up","GO_MF",30,"cis-regulatory region sequence-specific DNA binding",4.97356518637401e-06,10,0.304,0.625,0.083,1
+"Neutrophils_Up_GO_MF","Healthy_vs_AChR_MG","Up","GO_MF",3,"2'-5'-oligoadenylate synthetase activity",0.000839804262857086,3,0.09,0.115,0.257,0.667
+"Neutrophils_Up_GO_MF","Healthy_vs_SNMG_Pre","Up","GO_MF",4,"double-stranded RNA binding",1.0641713005217e-06,6,0.095,0.162,0.214,0.667
+"Neutrophils_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",7,"interleukin-1 receptor activity",0.000143426511242645,46,0.229,0.958,0.121,0.429
+"NK_cells_Down_GO_MF","Healthy_vs_AChR_MG","Down","GO_MF",49,"GTP binding",0.0188234667153904,22,0.121,0.957,0.248,1
+"NK_cells_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",32,"enzyme binding",0.00107321392196721,36,0.148,0.973,0.1,1
+"NK_cells_Up_GO_MF","Healthy_vs_SNMG_Pre","Up","GO_MF",3,"interleukin-2 binding",0.0447192632714861,1,0.125,0.125,0.333,0.333
+"NK_cells_Down_GO_MF","SNMG_Pre_vs_SNMG_Post","Down","GO_MF",2,"type II interferon receptor activity",0.0158337454378135,1,0.2,0.2,0.35,0.5
+"NK_cells_Up_GO_MF","SNMG_Pre_vs_SNMG_Post","Up","GO_MF",29,"DNA-binding transcription activator activity",2.38193542932725e-08,16,0.36,1,0.034,0.25
+"T_cells_Down_GO_MF","Healthy_vs_AChR_MG","Down","GO_MF",13,"GTP binding",0.00884408951799012,6,0.154,0.4,0.3,1
+"T_cells_Down_GO_MF","Healthy_vs_SNMG_Pre","Down","GO_MF",10,"prostaglandin J receptor activity",0.0289685153809125,3,0.129,0.214,0.277,1
+"B_cells_Down_KEGG","Healthy_vs_SNMG_Pre","Down","KEGG",2,"Salmonella infection",0.00276411884680914,9,0.123,0.17,0.054,0.071
+"B_cells_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",26,"Asthma",0.000218882555071782,5,0.24,0.385,0.04,0.107
+"B_cells_Up_KEGG","SNMG_Pre_vs_SNMG_Post","Up","KEGG",1,"Parathyroid hormone synthesis, secretion and action",0.0490089159073312,2,0.5,0.5,0.018,0.018
+"Basophils_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",6,"Influenza A",1.588453102982e-05,4,0.528,0.667,0.02,0.029
+"Basophils_Down_KEGG","SNMG_Pre_vs_SNMG_Post","Down","KEGG",1,"Hippo signaling pathway",0.0229398913098217,2,0.667,0.667,0.013,0.013
+"CD4__T_cells_Down_KEGG","Healthy_vs_SNMG_Pre","Down","KEGG",14,"IL-17 signaling pathway",0.00314482211695589,6,0.183,0.333,0.026,0.043
+"CD4__T_cells_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",3,"Chemokine signaling pathway",0.0176519603117414,3,0.333,0.375,0.015,0.02
+"CD4__T_cells_Up_KEGG","SNMG_Pre_vs_SNMG_Post","Up","KEGG",3,"Osteoclast differentiation",0.00453030107522267,2,0.5,0.5,0.018,0.022
+"CD8__T_cells_Up_KEGG","Healthy_vs_AChR_MG","Up","KEGG",5,"Apoptosis",0.0389698819350822,2,0.333,0.333,0.018,0.022
+"Dendritic_cells_Down_KEGG","Healthy_vs_SNMG_Pre","Down","KEGG",1,"Osteoclast differentiation",0.0254236492271959,6,0.115,0.115,0.045,0.045
+"Dendritic_cells_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",8,"Coronavirus disease - COVID-19",1.13561683966645e-07,7,0.409,0.636,0.026,0.037
+"Monocytes_Down_KEGG","Healthy_vs_AChR_MG","Down","KEGG",1,"Lipid and atherosclerosis",0.0133257082614862,2,1,1,0.009,0.009
+"Monocytes_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",12,"Chemokine signaling pathway",0.000767980023186607,7,0.154,0.212,0.028,0.041
+"Monocytes_Down_KEGG","SNMG_Pre_vs_SNMG_Post","Down","KEGG",14,"Cytokine-cytokine receptor interaction",0.0100071554476509,4,0.208,0.364,0.021,0.032
+"Neutrophils_Up_KEGG","Healthy_vs_AChR_MG","Up","KEGG",8,"Hepatitis C",5.75589822709378e-06,6,0.275,0.4,0.026,0.038
+"Neutrophils_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",10,"Hepatitis C",1.98998877388358e-09,8,0.36,0.533,0.033,0.051
+"Neutrophils_Up_KEGG","SNMG_Pre_vs_SNMG_Post","Up","KEGG",9,"TNF signaling pathway",0.00154169527015664,3,0.422,0.6,0.019,0.027
+"NK_cells_Down_KEGG","Healthy_vs_AChR_MG","Down","KEGG",2,"Antigen processing and presentation",0.0061628681555238,3,0.208,0.25,0.049,0.056
+"NK_cells_Down_KEGG","Healthy_vs_SNMG_Pre","Down","KEGG",32,"Osteoclast differentiation",0.00335808412135191,7,0.145,0.292,0.028,0.046
+"NK_cells_Up_KEGG","Healthy_vs_SNMG_Pre","Up","KEGG",4,"Epstein-Barr virus infection",0.0222675472189364,3,0.312,0.375,0.017,0.022
+"NK_cells_Up_KEGG","SNMG_Pre_vs_SNMG_Post","Up","KEGG",49,"Osteoclast differentiation",7.84654718502229e-08,6,0.311,0.667,0.022,0.054
+"T_cells_Up_KEGG","Healthy_vs_AChR_MG","Up","KEGG",4,"TNF signaling pathway",0.00191829462051871,4,0.271,0.333,0.028,0.034
+"B_cells_Down_Reactome","Healthy_vs_AChR_MG","Down","Reactome",94,"Immune System",0.0243724539880166,14,0.116,0.538,0.043,1
+"B_cells_Down_Reactome","Healthy_vs_SNMG_Pre","Down","Reactome",7,"Interleukin-4 and Interleukin-13 signaling",0.00266218614911893,25,0.151,0.368,0.052,0.15
+"B_cells_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",7,"Role of phospholipids in phagocytosis",0.0265390719529089,10,0.235,0.588,0.026,0.057
+"B_cells_Up_Reactome","SNMG_Pre_vs_SNMG_Post","Up","Reactome",18,"FOXO-mediated transcription of cell cycle genes",0.0381381033947424,1,0.25,0.25,0.093,0.25
+"Basophils_Up_Reactome","Healthy_vs_AChR_MG","Up","Reactome",59,"PI3K/AKT Signaling in Cancer",0.0116866415171922,3,0.318,0.75,0.051,0.2
+"Basophils_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",12,"Interferon alpha/beta signaling",3.28676240962438e-09,6,0.458,1,0.129,1
+"Basophils_Down_Reactome","SNMG_Pre_vs_SNMG_Post","Down","Reactome",23,"GAB1 signalosome",0.000893893186943473,2,0.283,0.5,0.079,0.5
+"CD4__T_cells_Down_Reactome","Healthy_vs_AChR_MG","Down","Reactome",102,"Cellular response to hypoxia",0.0269464242625429,8,0.117,0.444,0.031,0.125
+"CD4__T_cells_Down_Reactome","Healthy_vs_SNMG_Pre","Down","Reactome",7,"ESR-mediated signaling",0.0105670988198859,7,0.195,0.318,0.059,0.2
+"CD4__T_cells_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",3,"Platelet activation, signaling and aggregation",0.0053403033563255,4,0.296,0.444,0.034,0.051
+"CD4__T_cells_Down_Reactome","SNMG_Pre_vs_SNMG_Post","Down","Reactome",1,"HSP90 chaperone cycle for steroid hormone receptors (SHR) in the presence of ligand",0.00575935225534414,2,0.5,0.5,0.035,0.035
+"CD4__T_cells_Up_Reactome","SNMG_Pre_vs_SNMG_Post","Up","Reactome",13,"NGF-stimulated transcription",0.0017867567829073,2,0.404,0.5,0.027,0.067
+"Dendritic_cells_Down_Reactome","Healthy_vs_SNMG_Pre","Down","Reactome",3,"Cellular responses to stimuli",0.0163330771544928,14,0.232,0.237,0.017,0.018
+"Dendritic_cells_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",18,"Interferon alpha/beta signaling",1.39881990345733e-12,9,0.349,0.643,0.089,1
+"Dendritic_cells_Up_Reactome","SNMG_Pre_vs_SNMG_Post","Up","Reactome",23,"Cellular responses to stress",0.0194965834973105,4,0.224,0.571,0.074,0.25
+"Monocytes_Down_Reactome","Healthy_vs_AChR_MG","Down","Reactome",22,"Viral RNP Complexes in the Host Cell Nucleus",0.00669319826338044,1,0.5,0.5,0.085,1
+"Monocytes_Down_Reactome","Healthy_vs_SNMG_Pre","Down","Reactome",29,"Toll Like Receptor 4 (TLR4) Cascade",0.0455378849790047,9,0.06,0.209,0.567,1
+"Monocytes_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",36,"Platelet activation, signaling and aggregation",3.70693259956007e-10,23,0.144,0.511,0.085,0.222
+"Monocytes_Down_Reactome","SNMG_Pre_vs_SNMG_Post","Down","Reactome",2,"IFNG signaling activates MAPKs",0.0115892053766615,2,0.118,0.118,0.208,0.25
+"Neutrophils_Up_Reactome","Healthy_vs_AChR_MG","Up","Reactome",22,"Interferon alpha/beta signaling",7.65424286497823e-19,17,0.209,0.739,0.142,1
+"Neutrophils_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",17,"Interferon alpha/beta signaling",2.18360088071229e-29,22,0.281,0.815,0.216,1
+"Neutrophils_Up_Reactome","SNMG_Pre_vs_SNMG_Post","Up","Reactome",13,"Interleukin-4 and Interleukin-13 signaling",0.00274522805242179,5,0.308,0.714,0.087,0.25
+"NK_cells_Down_Reactome","Healthy_vs_AChR_MG","Down","Reactome",6,"Phosphorylation of CD3 and TCR zeta chains",0.027154363855642,2,0.125,0.125,0.077,0.1
+"NK_cells_Down_Reactome","Healthy_vs_SNMG_Pre","Down","Reactome",38,"Signaling by Interleukins",0.00442327194419785,15,0.152,0.536,0.051,0.5
+"NK_cells_Up_Reactome","Healthy_vs_SNMG_Pre","Up","Reactome",11,"Interferon Signaling",0.0011075611861423,5,0.318,0.625,0.113,1
+"NK_cells_Down_Reactome","SNMG_Pre_vs_SNMG_Post","Down","Reactome",3,"Interferon Signaling",0.0184331653523449,2,0.444,0.667,0.072,0.125
+"NK_cells_Up_Reactome","SNMG_Pre_vs_SNMG_Post","Up","Reactome",71,"NGF-stimulated transcription",5.23313371201872e-06,7,0.233,0.636,0.039,0.2
+"T_cells_Up_Reactome","Healthy_vs_AChR_MG","Up","Reactome",4,"GAB1 signalosome",0.0210107486058286,2,0.182,0.182,0.092,0.125
+"B_cells_Down_WikiPathways","Healthy_vs_AChR_MG","Down","WikiPathways",1,"TYROBP causal network in microglia",0.0030973060528187,4,0.133,0.133,0.067,0.067
+"B_cells_Down_WikiPathways","Healthy_vs_SNMG_Pre","Down","WikiPathways",1,"TYROBP causal network in microglia",0.0308211874717785,5,0.07,0.07,0.083,0.083
+"B_cells_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",3,"Genes associated with the development of rheumatoid arthritis",0.0178786444080895,3,0.167,0.188,0.056,0.111
+"B_cells_Up_WikiPathways","SNMG_Pre_vs_SNMG_Post","Up","WikiPathways",1,"Corticotropin releasing hormone signaling",0.0471500897879926,2,0.5,0.5,0.022,0.022
+"Basophils_Up_WikiPathways","Healthy_vs_AChR_MG","Up","WikiPathways",18,"Leptin insulin signaling overlap",0.0419304986165779,2,0.211,0.4,0.056,0.25
+"Basophils_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",7,"Non genomic actions of 1 25 dihydroxyvitamin D3",0.0277392633923028,3,0.214,0.375,0.06,0.167
+"Basophils_Down_WikiPathways","SNMG_Pre_vs_SNMG_Post","Down","WikiPathways",10,"TNF related weak inducer of apoptosis TWEAK signaling",0.0475280969634861,1,0.25,0.25,0.047,0.077
+"CD4__T_cells_Down_WikiPathways","Healthy_vs_SNMG_Pre","Down","WikiPathways",40,"Physiological and pathological hypertrophy of the heart",0.00638692948558326,6,0.108,0.25,0.054,0.154
+"CD4__T_cells_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",4,"SARS CoV 2 innate immunity evasion and cell specific immune response",0.000573791090512786,3,0.344,0.375,0.023,0.045
+"CD4__T_cells_Down_WikiPathways","SNMG_Pre_vs_SNMG_Post","Down","WikiPathways",9,"Leukocyte intrinsic Hippo pathway functions",0.0352621470817439,1,0.333,0.333,0.029,0.053
+"CD4__T_cells_Up_WikiPathways","SNMG_Pre_vs_SNMG_Post","Up","WikiPathways",17,"Corticotropin releasing hormone signaling",0.00023445404539146,3,0.259,0.6,0.026,0.05
+"CD8__T_cells_Down_WikiPathways","Healthy_vs_AChR_MG","Down","WikiPathways",4,"Interactions of natural killer cells in pancreatic cancer",0.0312457093698111,1,0.2,0.2,0.056,0.125
+"CD8__T_cells_Up_WikiPathways","Healthy_vs_AChR_MG","Up","WikiPathways",8,"Catabolism of skeletal muscle in cachexia",0.0144546839642517,2,0.325,0.4,0.06,0.125
+"CD8__T_cells_Down_WikiPathways","SNMG_Pre_vs_SNMG_Post","Down","WikiPathways",1,"Glucocorticoid receptor pathway",0.0213813178800357,3,0.176,0.176,0.043,0.043
+"Dendritic_cells_Down_WikiPathways","Healthy_vs_SNMG_Pre","Down","WikiPathways",13,"miR 517 relationship with ARCN1 and USP1",0.000979119796593648,9,0.081,0.153,0.106,0.6
+"Dendritic_cells_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",9,"Type II interferon signaling",1.60217558832269e-05,5,0.248,0.385,0.065,0.108
+"Dendritic_cells_Up_WikiPathways","SNMG_Pre_vs_SNMG_Post","Up","WikiPathways",6,"Exercise and hypertrophy in skeletal muscle",7.84318827113709e-05,3,0.241,0.333,0.162,0.4
+"Monocytes_Down_WikiPathways","Healthy_vs_AChR_MG","Down","WikiPathways",3,"Apoptosis modulation and signaling",0.00452207965299385,2,0.444,0.667,0.042,0.053
+"Monocytes_Down_WikiPathways","Healthy_vs_SNMG_Pre","Down","WikiPathways",3,"White fat cell differentiation",0.0469352846122207,7,0.119,0.167,0.05,0.094
+"Monocytes_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",8,"SARS CoV 2 innate immunity evasion and cell specific immune response",0.00169628547082222,8,0.119,0.182,0.065,0.176
+"Monocytes_Down_WikiPathways","SNMG_Pre_vs_SNMG_Post","Down","WikiPathways",15,"Interferon mediated signaling",0.0117418873568687,4,0.172,0.333,0.055,0.167
+"Neutrophils_Down_WikiPathways","Healthy_vs_AChR_MG","Down","WikiPathways",7,"Molecular pathway for oxidative stress",0.0377421997380228,2,0.179,0.25,0.214,0.5
+"Neutrophils_Up_WikiPathways","Healthy_vs_AChR_MG","Up","WikiPathways",10,"Type II interferon signaling",0.000149413893650454,5,0.133,0.208,0.076,0.13
+"Neutrophils_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",13,"Type II interferon signaling",4.7885376530231e-06,7,0.151,0.28,0.087,0.174
+"Neutrophils_Down_WikiPathways","SNMG_Pre_vs_SNMG_Post","Down","WikiPathways",1,"TYROBP causal network in microglia",0.012043159740567,4,0.114,0.114,0.067,0.067
+"Neutrophils_Up_WikiPathways","SNMG_Pre_vs_SNMG_Post","Up","WikiPathways",37,"Spinal cord injury",3.8533659337814e-05,4,0.248,0.667,0.084,0.5
+"NK_cells_Down_WikiPathways","Healthy_vs_AChR_MG","Down","WikiPathways",1,"Pathogenesis of SARS CoV 2 mediated by nsp9 nsp10 complex",0.0338967086369971,2,0.133,0.133,0.095,0.095
+"NK_cells_Down_WikiPathways","Healthy_vs_SNMG_Pre","Down","WikiPathways",66,"Prolactin signaling",0.00122967617993643,7,0.093,0.226,0.06,0.231
+"NK_cells_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",2,"Type II interferon signaling",0.020400585878789,2,0.25,0.25,0.041,0.054
+"NK_cells_Down_WikiPathways","SNMG_Pre_vs_SNMG_Post","Down","WikiPathways",15,"Interferon signaling in tuberculosis",0.000421091927342927,2,0.356,0.667,0.027,0.087
+"NK_cells_Up_WikiPathways","SNMG_Pre_vs_SNMG_Post","Up","WikiPathways",79,"Corticotropin releasing hormone signaling",2.65008689534183e-07,6,0.185,0.462,0.052,0.231
+"T_cells_Up_WikiPathways","Healthy_vs_AChR_MG","Up","WikiPathways",1,"Modulators of TCR signaling and T cell activation",0.0171270731600311,3,0.214,0.214,0.049,0.049
+"T_cells_Up_WikiPathways","Healthy_vs_SNMG_Pre","Up","WikiPathways",3,"Modulators of TCR signaling and T cell activation",0.000662912258542593,4,0.196,0.235,0.046,0.066

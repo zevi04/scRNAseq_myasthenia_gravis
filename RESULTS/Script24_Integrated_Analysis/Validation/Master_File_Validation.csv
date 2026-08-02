@@ -1,0 +1,11 @@
+"File","Status","Rows","Columns"
+"Pipeline_Statistics.csv","PASS",7,2
+"DEG_Long.csv","PASS",30,8
+"DEG_Wide.csv","PASS",10,5
+"CellType_Ranking.csv","PASS",10,3
+"Comparison_Ranking.csv","PASS",3,3
+"Enrichment_Master.csv","PASS",185,12
+"Database_Ranking.csv","PASS",6,5
+"CellType_Enrichment_Ranking.csv","PASS",95,4
+"Comparison_Enrichment_Ranking.csv","PASS",3,4
+"Direction_Ranking.csv","PASS",2,3

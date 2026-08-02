@@ -1,0 +1,57 @@
+[2026-08-01 14:17:56] Script 24 started.
+[2026-08-01 14:17:56] Initialization complete.
+[2026-08-01 14:17:56] Directory validation completed.
+[2026-08-01 14:17:56] SECTION 9 : Project Paths - 0.02 seconds
+[2026-08-01 14:17:56] SECTION 10 : Loading Master Files - 0.17 seconds
+[2026-08-01 14:17:57] 30 DEG tables loaded.
+[2026-08-01 14:17:57] SECTION 11 : Loading DEG Tables - 0.99 seconds
+[2026-08-01 14:18:00] 185 Enrichment tables loaded.
+[2026-08-01 14:18:00] SECTION 12 : Loading Enrichment Tables - 3.34 seconds
+[2026-08-01 14:18:00] SECTION 13 : Inventory - 0.13 seconds
+[2026-08-01 14:18:06] Chunk 3 completed successfully.
+[2026-08-01 14:18:06] CHUNK 3 : Data Integrity & Biological Readiness - 0.28 seconds
+[2026-08-01 14:18:08] Chunk 4 completed successfully.
+[2026-08-01 14:18:08] CHUNK 4 : DEG Metadata Integration - 1.46 seconds
+[2026-08-01 14:18:13] Loading Master_DEG_Table.csv
+[2026-08-01 14:18:13] Master DEG table loaded: 56555 rows
+[2026-08-01 14:18:13] Section 5.1 completed successfully.
+[2026-08-01 14:18:13] SECTION 5.1 : Load & Validate Master DEG Table - 0.72 seconds
+[2026-08-01 14:18:13] Generating global DEG overview.
+[2026-08-01 14:18:14] Section 5.2 completed successfully.
+[2026-08-01 14:18:14] SECTION 5.2 : Global DEG Overview - 0.43 seconds
+[2026-08-01 14:18:14] Generating global DEG visualizations.
+[2026-08-01 14:18:29] Section 5.3 completed successfully.
+[2026-08-01 14:18:29] SECTION 5.3 : Global DEG Visualization - 15.55 seconds
+[2026-08-01 14:18:29] Building significant DEG occurrence matrices.
+[2026-08-01 14:18:32] Section 5.4 completed successfully.
+[2026-08-01 14:18:32] SECTION 5.4 : Shared & Unique DEGs - 3.17 seconds
+[2026-08-01 14:18:32] Identifying conserved disease signatures.
+[2026-08-01 14:18:35] Section 5.5 completed successfully.
+[2026-08-01 14:18:35] SECTION 5.5 : Conserved Disease Signatures - 2.77 seconds
+[2026-08-01 14:18:35] Assembling publication-ready composite figures.
+[2026-08-01 14:19:16] Publication figures assembled successfully.
+[2026-08-01 14:19:16] SECTION 5.6 : Publication Figure Assembly - 41.17 seconds
+[2026-08-01 14:19:16] Generating publication-ready figure legends.
+[2026-08-01 14:19:17] Automatic figure legends completed.
+[2026-08-01 14:19:17] SECTION 5.7 : Automatic Figure Legends - 0.67 seconds
+[2026-08-01 14:19:25] Generating automated biological interpretation.
+[2026-08-01 14:19:25] Section 6 completed successfully.
+[2026-08-01 14:19:25] SECTION 6 : Biological Interpretation - 0.4 seconds
+[2026-08-01 14:19:25] Generating supplementary tables.
+[2026-08-01 14:19:26] Supplementary tables generated.
+[2026-08-01 14:19:26] SECTION 7 : Supplementary Tables - 1.35 seconds
+[2026-08-01 14:19:26] Generating methodology workflow diagram.
+[2026-08-01 14:19:28] Section 8 completed successfully.
+[2026-08-01 14:19:28] SECTION 8 : Methodology Diagram - 2 seconds
+[2026-08-01 14:19:33] Generating methodology workflow diagram.
+[2026-08-01 14:19:34] Section 8 completed successfully.
+[2026-08-01 14:19:34] SECTION 8 : Methodology Diagram - 0.71 seconds
+[2026-08-01 14:19:38] Repair analysis uses 1021 significant DEG entries, 598 genes, 10 cell types and 3 comparisons.
+[2026-08-01 14:19:40] SECTION 5.4 REPAIR : DEG Recurrence - 2.3 seconds
+[2026-08-01 14:19:41] SECTION 5.5 REPAIR : Conserved Disease Signatures - 1.06 seconds
+[2026-08-01 14:19:50] SECTION 5.5B : Publication Figure Redesign - 8.65 seconds
+[2026-08-01 14:19:50] SECTION 5.6 REPAIR : Metadata - 0 seconds
+[2026-08-01 14:19:50] SECTION 5.7 REPAIR : Detailed Figure Legends - 0.35 seconds
+[2026-08-01 14:19:51] SECTION 6 REPAIR : Results Writing - 0.4 seconds
+[2026-08-01 14:19:51] SECTION 7 REPAIR : Supplementary Tables - 0.08 seconds
+[2026-08-01 14:19:51] SECTION 8 REPAIR : Methodology - 0.58 seconds

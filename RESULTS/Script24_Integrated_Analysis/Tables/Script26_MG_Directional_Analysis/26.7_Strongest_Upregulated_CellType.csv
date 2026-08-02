@@ -1,0 +1,4 @@
+"Comparison","CellType","Upregulated","Percent_Up","Mean_Up_Log2FC","Upregulation_Score"
+"Healthy_vs_AChR_MG","Neutrophils",27,69.2307692307692,1.45346452666465,4.84324105113161
+"Healthy_vs_SNMG_Pre","Neutrophils",39,97.5,3.181904823212,11.7376633272928
+"SNMG_Pre_vs_SNMG_Post","B cells",7,100,2.29660764216257,4.77566133605223

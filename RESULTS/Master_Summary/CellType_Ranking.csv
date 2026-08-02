@@ -1,0 +1,11 @@
+"Cell_Type","Total_DEGs","Mean_Volcano_Score"
+"Progenitors",15157,3217.80666666667
+"Monocytes",6631,1037.22666666667
+"Dendritic_cells",5965,845.343333333333
+"B_cells",5040,759.403333333333
+"T_cells",4520,637.553333333333
+"NK_cells",4338,623.04
+"CD8__T_cells",3868,532.77
+"Basophils",3861,650.056666666667
+"CD4__T_cells",3806,535.876666666667
+"Neutrophils",3369,636.846666666667

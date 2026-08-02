@@ -1,0 +1,11 @@
+"Directory","Path","Exists"
+"master","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/Master_Summary",TRUE
+"deg","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/DEG",TRUE
+"enrichment","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/Functional_Enrichment",TRUE
+"composition","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/Cell_Composition",TRUE
+"figures","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/figures",TRUE
+"qc","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/qc",TRUE
+"tables","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/tables",TRUE
+"metadata","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/metadata",TRUE
+"objects","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/objects",TRUE
+"logs","C:/Bioinformatics/scRNAseq_myasthenia_gravis/RESULTS/logs",TRUE

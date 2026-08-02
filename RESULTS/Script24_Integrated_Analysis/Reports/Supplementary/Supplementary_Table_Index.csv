@@ -1,0 +1,7 @@
+"Table","Description"
+"S1","All significant DEG entries passing the integrated thresholds"
+"S2","Gene-level recurrence, comparison frequency and effect-size statistics"
+"S3","Genes significant in at least two analysed cell types"
+"S4","Genes significant in exactly one analysed cell type"
+"S5","Recurrent disease-associated candidate signatures"
+"S6","Number of genes observed at each cell-type recurrence frequency"

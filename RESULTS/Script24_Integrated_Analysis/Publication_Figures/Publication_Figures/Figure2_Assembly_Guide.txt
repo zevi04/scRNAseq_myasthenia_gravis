@@ -1,0 +1,10 @@
+FIGURE 2 ASSEMBLY GUIDE
+=======================
+A: Figure2A_Recurrence_Distribution
+B: Figure2B_Recurrent_DEG_Map
+C: Figure2C_Recurrence_Categories
+D: effect-size heatmap
+
+Recommended layout: A and C on the top row; B and D on the bottom row.
+Do not shrink panel B below approximately half-page width because gene labels become unreadable.
+Panel D is only an effect-size heatmap when sufficient recurrent genes have observations in >=3 cell types.

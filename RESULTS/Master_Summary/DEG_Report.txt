@@ -1,0 +1,26 @@
+=========================================
+DEG MASTER SUMMARY
+=========================================
+
+Total DEG files analysed : 30 
+Total DEGs : 56555 
+
+Most affected cell type:
+# A tibble: 1 × 3
+  Cell_Type   Total_DEGs Mean_Volcano_Score
+  <chr>            <int>              <dbl>
+1 Progenitors      15157              3218.
+
+Least affected cell type:
+# A tibble: 1 × 3
+  Cell_Type   Total_DEGs Mean_Volcano_Score
+  <chr>            <int>              <dbl>
+1 Neutrophils       3369               637.
+
+Comparison ranking:
+# A tibble: 3 × 3
+  Comparison            Total_DEGs Mean_Volcano_Score
+  <chr>                      <int>              <dbl>
+1 Healthy_vs_SNMG_Pre        20136              1076.
+2 Healthy_vs_AChR_MG         19694               992.
+3 SNMG_Pre_vs_SNMG_Post      16725               774.

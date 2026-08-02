@@ -1,0 +1,9 @@
+"Metric","Value"
+"Significant DEG entries",1021
+"Unique significant genes",598
+"Cell types",10
+"Comparisons",3
+"Cell-type-specific genes",434
+"Genes recurrent in >=2 cell types",164
+"Genes recurrent in >=5 cell types",15
+"Genes conserved across all cell types",0

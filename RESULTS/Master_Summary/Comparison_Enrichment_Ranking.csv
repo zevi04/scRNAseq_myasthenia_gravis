@@ -1,0 +1,4 @@
+"Comparison","Tables","Total_Enriched_Terms","Mean_Precision"
+"Healthy_vs_SNMG_Pre",75,4003,0.209773333333333
+"SNMG_Pre_vs_SNMG_Post",62,2399,0.292758064516129
+"Healthy_vs_AChR_MG",48,2233,0.2758125

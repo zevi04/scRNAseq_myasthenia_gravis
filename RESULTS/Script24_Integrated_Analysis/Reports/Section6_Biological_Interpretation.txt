@@ -1,0 +1,23 @@
+###############################################################################
+# RESULTS
+###############################################################################
+
+6.1 Global Differential Expression
+
+A total of 56555 differential expression entries representing 10442 unique genes were identified across 10 cell types and 3 disease comparisons.
+
+6.2 Cell-type Specific Changes
+
+Among the analysed cell populations, Progenitors displayed the highest number of differentially expressed genes ( 15157 ), followed by Monocytes ( 6631 ).
+
+6.3 Disease Comparison
+
+The comparison exhibiting the largest transcriptional response was Healthy_vs_SNMG_Pre with 20136 differentially expressed genes.
+
+6.4 Conserved Disease Signatures
+
+2 conserved disease signatures satisfied the predefined filtering criteria and were ranked according to the composite signature score.
+
+6.5 Summary
+
+The combined analyses demonstrate both shared and cell-type-specific transcriptional alterations associated with disease progression. Conserved signatures represent candidate molecular mechanisms for downstream validation.

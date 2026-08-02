@@ -1,0 +1,7 @@
+###############################################################################
+# FIGURE LEGENDS
+###############################################################################
+
+Figure 1. Figure 1. Global differential expression landscape across all analyzed cell types. (A) Total number of differentially expressed genes identified for each cell type. (B) DEG distribution across disease comparisons. (C) Upregulated and downregulated DEG counts by cell type. (D) Heatmap showing the distribution of significant DEGs across cell types and comparisons. Differential expression significance was determined using the thresholds defined in the analysis pipeline.
+
+Figure 2. Figure 2. Shared disease signatures identified across cell populations. (A) Gene recurrence heatmap illustrating the presence of DEGs across cell types. (B) Heatmap of the top conserved disease signatures ranked by composite signature score. (C) Summary panel describing shared and conserved genes identified across the dataset.

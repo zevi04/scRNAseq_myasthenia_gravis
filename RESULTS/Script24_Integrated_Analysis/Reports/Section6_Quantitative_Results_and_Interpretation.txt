@@ -1,0 +1,16 @@
+6. BIOLOGICAL INTERPRETATION / RESULTS
+
+6.1 Integrated significant-DEG landscape
+Applying the predefined thresholds (adjusted P < 0.05 and |average log2 fold-change| >= 0.5) identified 1021 significant DEG entries representing 598 unique genes across 10 immune cell types and 3 disease comparisons. The analysed cell types were B cells, Basophils, CD4 T cells, CD8 T cells, Dendritic cells, Monocytes, Neutrophils, NK cells, Progenitors, T cells. The comparisons represented in the integrated dataset were Healthy_vs_AChR_MG, Healthy_vs_SNMG_Pre, SNMG_Pre_vs_SNMG_Post.
+
+6.2 Recurrence across immune cell types
+The recurrence analysis demonstrated that the transcriptional response was dominated by cell-type-restricted changes (Figure 1). Of 598 significant genes, 434 (72.6%) were significant in only one immune cell type. A further 95 (15.9%) were shared by exactly two cell types, while 54 (9%) recurred across three to four cell types. Only 15 genes (2.5%) were detected in five or more cell types. This pattern indicates substantial cell-type specificity alongside a smaller core of recurrent disease-associated transcriptional changes.
+
+6.3 Recurrent gene patterns
+The binary recurrence heatmap (Figure 2) resolves which immune cell types contribute to the recurrent component. Unlike the recurrence distribution, where the x-axis denotes recurrence frequency, the heatmap columns correspond to individual cell-type identities. The highest-ranking recurrent genes included FKBP5, RPS26, MTRNR2L1, ZBTB16, TXNIP, HBB, AREG, IFI44L, DDIT4, IRS2. These candidates were prioritized using recurrence across cell types and comparisons together with effect-size information, allowing broadly shared changes to be distinguished from lineage-restricted signals.
+
+6.4 Conserved disease-associated signatures
+69 genes were recurrent in at least three cell types and were therefore carried forward as conserved/recurrent candidate signatures. Figure 3 displays the highest-ranking candidates using mean log2 fold-change rather than binary presence, thereby showing both the direction and magnitude of the transcriptional response. The leading ranked candidates included FKBP5, AREG, RPS26, FOSB, IFI44L, ZBTB16, MX1, TXNIP, IL1R2, FOS. A gene may recur across several cell types while differing in direction or magnitude; therefore recurrence and effect-size heatmaps should be interpreted together rather than as interchangeable measures.
+
+6.5 Overall interpretation
+Taken together, the integrated analysis supports a model in which most significant transcriptional alterations are cell-type-specific, while a smaller set of genes recur across multiple immune populations. The latter group represents candidate shared disease-associated mechanisms, whereas the cell-type-specific component may reflect lineage-dependent responses. These findings are computational associations from the present dataset and should be treated as candidates for pathway-level interpretation and independent experimental or external-dataset validation rather than as validated biomarkers.

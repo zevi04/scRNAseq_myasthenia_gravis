@@ -1,0 +1,29 @@
+"CellType","Comparison","Significant_DEGs","Upregulated","Downregulated"
+"B cells","Healthy_vs_AChR_MG",59,9,50
+"B cells","Healthy_vs_SNMG_Pre",137,30,107
+"B cells","SNMG_Pre_vs_SNMG_Post",7,7,0
+"Basophils","Healthy_vs_AChR_MG",5,5,0
+"Basophils","Healthy_vs_SNMG_Pre",12,10,2
+"Basophils","SNMG_Pre_vs_SNMG_Post",6,0,6
+"CD4 T cells","Healthy_vs_AChR_MG",28,1,27
+"CD4 T cells","Healthy_vs_SNMG_Pre",37,9,28
+"CD4 T cells","SNMG_Pre_vs_SNMG_Post",10,5,5
+"CD8 T cells","Healthy_vs_AChR_MG",18,6,12
+"CD8 T cells","Healthy_vs_SNMG_Pre",17,4,13
+"CD8 T cells","SNMG_Pre_vs_SNMG_Post",21,1,20
+"Dendritic cells","Healthy_vs_AChR_MG",39,2,37
+"Dendritic cells","Healthy_vs_SNMG_Pre",100,20,80
+"Dendritic cells","SNMG_Pre_vs_SNMG_Post",19,13,6
+"Monocytes","Healthy_vs_AChR_MG",8,3,5
+"Monocytes","Healthy_vs_SNMG_Pre",116,59,57
+"Monocytes","SNMG_Pre_vs_SNMG_Post",42,18,24
+"Neutrophils","Healthy_vs_AChR_MG",39,27,12
+"Neutrophils","Healthy_vs_SNMG_Pre",40,39,1
+"Neutrophils","SNMG_Pre_vs_SNMG_Post",60,8,52
+"NK cells","Healthy_vs_AChR_MG",27,3,24
+"NK cells","Healthy_vs_SNMG_Pre",49,9,40
+"NK cells","SNMG_Pre_vs_SNMG_Post",22,17,5
+"Progenitors","Healthy_vs_AChR_MG",1,1,0
+"T cells","Healthy_vs_AChR_MG",35,19,16
+"T cells","Healthy_vs_SNMG_Pre",44,27,17
+"T cells","SNMG_Pre_vs_SNMG_Post",23,3,20

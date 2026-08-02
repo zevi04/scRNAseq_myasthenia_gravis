@@ -1,0 +1,49 @@
+=========================================
+ENRICHMENT MASTER SUMMARY
+=========================================
+
+Tables analysed : 185 
+Total enriched terms : 8635 
+
+Database Ranking
+# A tibble: 6 × 5
+  Database     Tables Total_Terms Mean_Precision Mean_Recall
+  <chr>         <int>       <int>          <dbl>       <dbl>
+1 GO_BP            40        6390          0.255      0.0913
+2 Reactome         28         664          0.257      0.0955
+3 GO_MF            32         660          0.177      0.206 
+4 WikiPathways     33         416          0.211      0.0644
+5 GO_CC            30         290          0.316      0.155 
+6 KEGG             22         215          0.345      0.0260
+
+Cell Type Ranking
+# A tibble: 95 × 4
+   Cell_Type                  Tables Total_Enriched_Terms Mean_Precision
+   <chr>                       <int>                <int>          <dbl>
+ 1 Dendritic_cells_Down_GO_BP      3                  867          0.179
+ 2 Monocytes_Up_GO_BP              2                  673          0.191
+ 3 NK_cells_Down_GO_BP             3                  631          0.211
+ 4 Neutrophils_Up_GO_BP            3                  628          0.251
+ 5 Neutrophils_Down_GO_BP          2                  541          0.218
+ 6 Monocytes_Down_GO_BP            3                  428          0.279
+ 7 CD4__T_cells_Down_GO_BP         3                  387          0.196
+ 8 B_cells_Down_GO_BP              2                  337          0.278
+ 9 T_cells_Up_GO_BP                2                  322          0.245
+10 NK_cells_Up_GO_BP               2                  296          0.28 
+# ℹ 85 more rows
+# ℹ Use `print(n = ...)` to see more rows
+
+Comparison Ranking
+# A tibble: 3 × 4
+  Comparison            Tables Total_Enriched_Terms Mean_Precision
+  <chr>                  <int>                <int>          <dbl>
+1 Healthy_vs_SNMG_Pre       75                 4003          0.210
+2 SNMG_Pre_vs_SNMG_Post     62                 2399          0.293
+3 Healthy_vs_AChR_MG        48                 2233          0.276
+
+Direction Summary
+# A tibble: 2 × 3
+  Direction Tables Total_Enriched_Terms
+  <chr>      <int>                <int>
+1 Down          94                 4610
+2 Up            91                 4025

@@ -1,0 +1,4 @@
+"Comparison","CellType","Total_Significant_DEGs","Transcriptional_Perturbation_Score","Direction_Bias"
+"Healthy_vs_AChR_MG","Neutrophils",39,4.7940211165425,"Predominantly upregulated"
+"Healthy_vs_SNMG_Pre","Neutrophils",40,11.5923438603941,"Predominantly upregulated"
+"SNMG_Pre_vs_SNMG_Post","B cells",7,4.77566133605223,"Predominantly upregulated"

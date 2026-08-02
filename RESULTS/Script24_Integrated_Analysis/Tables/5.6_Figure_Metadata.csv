@@ -1,0 +1,4 @@
+"Figure_File","Purpose","Data_Unit"
+"5.4_Gene_Recurrence_Distribution","Quantifies how broadly significant DEGs recur across analysed immune cell types","Genes"
+"5.4_Gene_Recurrence_Heatmap","Shows cell-type presence/absence patterns for the strongest recurrent significant DEGs","Gene x cell type"
+"5.5_Conserved_Signature_Heatmap","Shows direction and magnitude of mean differential expression for recurrent disease-associated genes","Gene x cell type"

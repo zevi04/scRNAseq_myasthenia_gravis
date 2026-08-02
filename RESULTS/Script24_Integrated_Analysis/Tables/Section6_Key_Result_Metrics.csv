@@ -1,0 +1,7 @@
+"Metric","Count","Percent_of_significant_genes"
+"Unique significant genes",598,100
+"Cell-type-specific genes",434,72.6
+"Shared in exactly 2 cell types",95,15.9
+"Recurrent in 3-4 cell types",54,9
+"Recurrent in >=5 cell types",15,2.5
+"Conserved/recurrent candidates (>=3 cell types)",69,11.5

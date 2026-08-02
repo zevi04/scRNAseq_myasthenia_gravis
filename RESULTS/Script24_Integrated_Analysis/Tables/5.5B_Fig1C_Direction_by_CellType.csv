@@ -1,0 +1,20 @@
+"CellType","Direction","Significant_DEGs"
+"B cells","Downregulated",157
+"B cells","Upregulated",46
+"Basophils","Downregulated",8
+"Basophils","Upregulated",15
+"CD4 T cells","Downregulated",60
+"CD4 T cells","Upregulated",15
+"CD8 T cells","Downregulated",45
+"CD8 T cells","Upregulated",11
+"Dendritic cells","Downregulated",123
+"Dendritic cells","Upregulated",35
+"Monocytes","Downregulated",86
+"Monocytes","Upregulated",80
+"Neutrophils","Downregulated",65
+"Neutrophils","Upregulated",74
+"NK cells","Downregulated",69
+"NK cells","Upregulated",29
+"Progenitors","Upregulated",1
+"T cells","Downregulated",53
+"T cells","Upregulated",49

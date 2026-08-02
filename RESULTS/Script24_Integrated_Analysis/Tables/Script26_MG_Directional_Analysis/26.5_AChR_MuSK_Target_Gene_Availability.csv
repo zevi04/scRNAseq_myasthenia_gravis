@@ -1,0 +1,11 @@
+"Gene","Target_Group","Present_in_Master_DEG_Table"
+"CHRNA1","AChR receptor subunit",FALSE
+"CHRNB1","AChR receptor subunit",TRUE
+"CHRND","AChR receptor subunit",FALSE
+"CHRNE","AChR receptor subunit",FALSE
+"CHRNG","AChR receptor subunit",FALSE
+"RAPSN","NMJ-associated",FALSE
+"AGRN","NMJ-associated",FALSE
+"LRP4","NMJ-associated",FALSE
+"DOK7","NMJ-associated",FALSE
+"MUSK","MuSK",FALSE

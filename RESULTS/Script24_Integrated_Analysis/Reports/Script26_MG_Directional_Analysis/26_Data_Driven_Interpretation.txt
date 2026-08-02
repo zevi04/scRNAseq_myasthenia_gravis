@@ -1,0 +1,38 @@
+SCRIPT 26 : DATA-DRIVEN INTERPRETATION
+======================================
+
+Significant DEG definition: adjusted P < 0.05 and |average log2FC| >= 0.5.
+
+IMPORTANT:
+The terms 'more active' and 'less active' are not used as direct physiological claims. This script measures transcriptional perturbation and directional DEG bias. Functional activation requires pathway, protein, signalling or experimental evidence.
+
+Analysed cell types: B cells, Basophils, CD4 T cells, CD8 T cells, Dendritic cells, Monocytes, Neutrophils, NK cells, Progenitors, T cells.
+
+Analysed comparisons: Healthy_vs_AChR_MG, Healthy_vs_SNMG_Pre, SNMG_Pre_vs_SNMG_Post.
+
+MOST TRANSCRIPTIONALLY PERTURBED CELL TYPE BY COMPARISON
+--------------------------------------------------------
+Healthy_vs_AChR_MG: Neutrophils ranked highest for the composite transcriptional perturbation score, with 39 significant DEG entries and a predominantly upregulated profile.
+Healthy_vs_SNMG_Pre: Neutrophils ranked highest for the composite transcriptional perturbation score, with 40 significant DEG entries and a predominantly upregulated profile.
+SNMG_Pre_vs_SNMG_Post: B cells ranked highest for the composite transcriptional perturbation score, with 7 significant DEG entries and a predominantly upregulated profile.
+
+STRONGEST UPREGULATED PROFILE BY COMPARISON
+-------------------------------------------
+Healthy_vs_AChR_MG: Neutrophils ranked highest for the upregulation score, with 27 upregulated DEG entries (69.2% of its significant DEG entries).
+Healthy_vs_SNMG_Pre: Neutrophils ranked highest for the upregulation score, with 39 upregulated DEG entries (97.5% of its significant DEG entries).
+SNMG_Pre_vs_SNMG_Post: B cells ranked highest for the upregulation score, with 7 upregulated DEG entries (100% of its significant DEG entries).
+
+STRONGEST DOWNREGULATED PROFILE BY COMPARISON
+---------------------------------------------
+Healthy_vs_AChR_MG: B cells ranked highest for the downregulation score, with 50 downregulated DEG entries (84.7% of its significant DEG entries).
+Healthy_vs_SNMG_Pre: Monocytes ranked highest for the downregulation score, with 57 downregulated DEG entries (49.1% of its significant DEG entries).
+SNMG_Pre_vs_SNMG_Post: Neutrophils ranked highest for the downregulation score, with 52 downregulated DEG entries (86.7% of its significant DEG entries).
+
+AChR / MuSK TARGETED ANALYSIS
+-----------------------------
+AChR-related receptor subunits detected anywhere in the master DEG table: CHRNB1.
+MUSK detected anywhere in the master DEG table: no.
+Significant AChR receptor-subunit DEG records passing Script 26 thresholds: 0.
+Significant MUSK DEG records passing Script 26 thresholds: 0.
+
+AChR-positive and MuSK-positive myasthenia gravis are antibody-defined disease subtypes. Detection of an AChR-related or MUSK transcript as upregulated would represent transcript-level differential expression in the sampled cells; it should not be used as evidence that antibody-positive MG is caused by receptor overexpression.

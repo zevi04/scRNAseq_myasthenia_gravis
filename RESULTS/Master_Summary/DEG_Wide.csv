@@ -1,0 +1,11 @@
+"Cell_Type","Healthy_vs_AChR_MG","Healthy_vs_SNMG_Pre","SNMG_Pre_vs_SNMG_Post","Total_DEGs"
+"Progenitors",5556,5416,4185,15157
+"Monocytes",1970,2768,1893,6631
+"Dendritic_cells",1943,2113,1909,5965
+"B_cells",1708,1846,1486,5040
+"T_cells",1582,1584,1354,4520
+"NK_cells",1743,1477,1118,4338
+"CD8__T_cells",1199,1238,1431,3868
+"Basophils",1368,1312,1181,3861
+"CD4__T_cells",1523,1200,1083,3806
+"Neutrophils",1102,1182,1085,3369

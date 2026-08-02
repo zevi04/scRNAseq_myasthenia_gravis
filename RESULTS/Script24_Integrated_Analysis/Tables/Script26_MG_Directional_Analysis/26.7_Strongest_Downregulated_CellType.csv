@@ -1,0 +1,4 @@
+"Comparison","CellType","Downregulated","Percent_Down","Mean_Down_Log2FC","Downregulation_Score"
+"Healthy_vs_AChR_MG","B cells",50,84.7457627118644,-0.733276076339681,2.88311367281588
+"Healthy_vs_SNMG_Pre","Monocytes",57,49.1379310344828,-1.42672337891828,5.79312897191188
+"SNMG_Pre_vs_SNMG_Post","Neutrophils",52,86.6666666666667,-1.09651058828224,4.35346712178126
