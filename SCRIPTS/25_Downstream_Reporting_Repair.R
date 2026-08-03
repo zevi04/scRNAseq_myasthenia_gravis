@@ -436,8 +436,7 @@ section_timer("SECTION 5.5 REPAIR : Conserved Disease Signatures", {
     heat_wide <- heat_df |>
       tidyr::pivot_wider(
         names_from = CellType,
-        values_from = Mean_Log2FC,
-        values_fill = 0
+        values_from = Mean_Log2FC
       )
 
     signature_mat <- heat_wide |>
@@ -459,12 +458,18 @@ section_timer("SECTION 5.5 REPAIR : Conserved Disease Signatures", {
       c("#2166AC", "#F7F7F7", "#B2182B")
     )
 
+    if (any(!is.finite(signature_mat))) {
+      message("[INFO] Conserved-signature matrix contains missing gene-cell-type combinations; ",
+              "NA values will be shown in grey and hierarchical clustering is disabled for this heatmap.")
+    }
+
     signature_ht <- ComplexHeatmap::Heatmap(
       signature_mat,
       name = "Mean log2FC",
       col = sig_col_fun,
-      cluster_rows = nrow(signature_mat) > 1,
-      cluster_columns = ncol(signature_mat) > 1,
+      na_col = "#E5E7EB",
+      cluster_rows = nrow(signature_mat) > 1 && all(is.finite(signature_mat)),
+      cluster_columns = ncol(signature_mat) > 1 && all(is.finite(signature_mat)),
       show_row_names = TRUE,
       show_column_names = TRUE,
       row_names_gp = grid::gpar(fontsize = 7),
@@ -505,6 +510,392 @@ section_timer("SECTION 5.5 REPAIR : Conserved Disease Signatures", {
   )
   save_csv(report_55, "5.5_Conserved_Signature_Report.csv")
 })
+
+
+###############################################################################
+# SECTION 5.5B : MANUSCRIPT-READY PUBLICATION FIGURES -- REDESIGNED
+###############################################################################
+
+section_timer("SECTION 5.5B : Publication Figure Redesign", {
+
+  PUB_DIR <- file.path(FIGURE_DIR, "Publication_Figures")
+  dir.create(PUB_DIR, recursive = TRUE, showWarnings = FALSE)
+
+  # -------------------------------------------------------------------------
+  # FIGURE 1: Significant DEG landscape
+  # IMPORTANT: every panel below is rebuilt from `significant_deg`, so the
+  # definition of a DEG is identical across panels A-D.
+  # -------------------------------------------------------------------------
+
+  celltype_sig <- significant_deg |>
+    dplyr::count(CellType, name = "Significant_DEGs") |>
+    dplyr::arrange(Significant_DEGs)
+
+  comparison_sig <- significant_deg |>
+    dplyr::count(Comparison, name = "Significant_DEGs") |>
+    dplyr::arrange(Significant_DEGs)
+
+  direction_sig <- significant_deg |>
+    dplyr::mutate(Direction = ifelse(avg_log2FC > 0, "Upregulated", "Downregulated")) |>
+    dplyr::count(CellType, Direction, name = "Significant_DEGs")
+
+  cell_comp_sig <- significant_deg |>
+    dplyr::count(CellType, Comparison, name = "Significant_DEGs") |>
+    tidyr::complete(
+      CellType = cell_types,
+      Comparison = comparisons,
+      fill = list(Significant_DEGs = 0L)
+    )
+
+  save_csv(celltype_sig, "5.5B_Fig1A_Significant_DEGs_by_CellType.csv")
+  save_csv(comparison_sig, "5.5B_Fig1B_Significant_DEGs_by_Comparison.csv")
+  save_csv(direction_sig, "5.5B_Fig1C_Direction_by_CellType.csv")
+  save_csv(cell_comp_sig, "5.5B_Fig1D_CellType_by_Comparison.csv")
+
+  p1a <- ggplot2::ggplot(
+    celltype_sig,
+    ggplot2::aes(x = stats::reorder(CellType, Significant_DEGs),
+                 y = Significant_DEGs)
+  ) +
+    ggplot2::geom_col(fill = "#3B82A0", width = 0.72) +
+    ggplot2::geom_text(ggplot2::aes(label = Significant_DEGs),
+                       hjust = -0.12, size = 3.5) +
+    ggplot2::coord_flip(clip = "off") +
+    ggplot2::scale_y_continuous(expand = ggplot2::expansion(mult = c(0, .14))) +
+    ggplot2::labs(title = "A  Significant DEGs by cell type",
+                  x = NULL, y = "Number of significant DEGs") +
+    ggplot2::theme_classic(base_size = 11) +
+    ggplot2::theme(plot.title = ggplot2::element_text(face = "bold"))
+
+  p1b <- ggplot2::ggplot(
+    comparison_sig,
+    ggplot2::aes(x = stats::reorder(Comparison, Significant_DEGs),
+                 y = Significant_DEGs)
+  ) +
+    ggplot2::geom_col(fill = "#D97706", width = 0.70) +
+    ggplot2::geom_text(ggplot2::aes(label = Significant_DEGs),
+                       hjust = -0.12, size = 3.5) +
+    ggplot2::coord_flip(clip = "off") +
+    ggplot2::scale_y_continuous(expand = ggplot2::expansion(mult = c(0, .16))) +
+    ggplot2::labs(title = "B  Significant DEGs by disease comparison",
+                  x = NULL, y = "Number of significant DEGs") +
+    ggplot2::theme_classic(base_size = 11) +
+    ggplot2::theme(plot.title = ggplot2::element_text(face = "bold"))
+
+  direction_sig$Direction <- factor(
+    direction_sig$Direction,
+    levels = c("Downregulated", "Upregulated")
+  )
+
+  p1c <- ggplot2::ggplot(
+    direction_sig,
+    ggplot2::aes(x = CellType, y = Significant_DEGs, fill = Direction)
+  ) +
+    ggplot2::geom_col(width = 0.72) +
+    ggplot2::coord_flip() +
+    ggplot2::scale_fill_manual(
+      values = c("Downregulated" = "#4C78A8", "Upregulated" = "#D84A3A")
+    ) +
+    ggplot2::labs(title = "C  Direction of significant DEGs",
+                  x = NULL, y = "Number of significant DEGs", fill = "Direction") +
+    ggplot2::theme_classic(base_size = 11) +
+    ggplot2::theme(
+      plot.title = ggplot2::element_text(face = "bold"),
+      legend.position = "bottom"
+    )
+
+  p1d <- ggplot2::ggplot(
+    cell_comp_sig,
+    ggplot2::aes(x = Comparison, y = CellType, fill = Significant_DEGs)
+  ) +
+    ggplot2::geom_tile(color = "white", linewidth = 0.8) +
+    ggplot2::geom_text(ggplot2::aes(label = Significant_DEGs),
+                       size = 3.6, fontface = "bold") +
+    ggplot2::scale_fill_gradient(low = "#FFF7EC", high = "#B30000") +
+    ggplot2::labs(
+      title = "D  Significant-DEG burden by cell type and comparison",
+      subtitle = "Numbers inside tiles are significant DEG entries",
+      x = "Disease comparison", y = "Cell type", fill = "Significant\nDEGs"
+    ) +
+    ggplot2::theme_minimal(base_size = 11) +
+    ggplot2::theme(
+      plot.title = ggplot2::element_text(face = "bold"),
+      axis.text.x = ggplot2::element_text(angle = 25, hjust = 1),
+      panel.grid = ggplot2::element_blank()
+    )
+
+  for (nm in c("A","B","C","D")) {
+    obj <- get(paste0("p1", tolower(nm)))
+    ggplot2::ggsave(
+      file.path(PUB_DIR, paste0("Figure1", nm, ".png")),
+      obj,
+      width = ifelse(nm == "D", 10.5, 8.5),
+      height = ifelse(nm == "D", 7.0, 6.2),
+      dpi = 320, bg = "white"
+    )
+    ggplot2::ggsave(
+      file.path(PUB_DIR, paste0("Figure1", nm, ".pdf")),
+      obj,
+      width = ifelse(nm == "D", 10.5, 8.5),
+      height = ifelse(nm == "D", 7.0, 6.2)
+    )
+  }
+
+  # Assemble Figure 1 only when patchwork is installed.
+  if (requireNamespace("patchwork", quietly = TRUE)) {
+    fig1 <- (p1a | p1b) / (p1c | p1d) +
+      patchwork::plot_annotation(
+        title = "Figure 1. Integrated significant differential-expression landscape"
+      )
+    ggplot2::ggsave(
+      file.path(PUB_DIR, "Figure1_Integrated_DEG_Landscape.png"),
+      fig1, width = 16, height = 12, dpi = 320, bg = "white"
+    )
+    ggplot2::ggsave(
+      file.path(PUB_DIR, "Figure1_Integrated_DEG_Landscape.pdf"),
+      fig1, width = 16, height = 12
+    )
+  }
+
+  # -------------------------------------------------------------------------
+  # FIGURE 2: Recurrence story
+  # A = recurrence distribution
+  # B = binary recurrence map
+  # C = recurrence-category summary with counts and percentages
+  # D = effect-size view only when the data support it; otherwise a ranked
+  #     recurrent-gene dot plot is used instead of an empty/sparse heatmap.
+  # -------------------------------------------------------------------------
+
+  category_levels <- c(
+    "Cell-type-specific",
+    "Shared across 2 cell types",
+    "Moderately recurrent (3-4)",
+    "Highly recurrent (5+)",
+    "Conserved across all cell types"
+  )
+
+  category_plot <- gene_summary |>
+    dplyr::count(Category, name = "Number_of_Genes") |>
+    tidyr::complete(Category = category_levels, fill = list(Number_of_Genes = 0L)) |>
+    dplyr::mutate(
+      Percent = 100 * Number_of_Genes / sum(Number_of_Genes),
+      Category = factor(Category, levels = category_levels)
+    )
+
+  category_colors <- c(
+    "Cell-type-specific" = "#4E79A7",
+    "Shared across 2 cell types" = "#59A14F",
+    "Moderately recurrent (3-4)" = "#F28E2B",
+    "Highly recurrent (5+)" = "#E15759",
+    "Conserved across all cell types" = "#7B2CBF"
+  )
+
+  p2a <- p_recurrence +
+    ggplot2::labs(title = "A  Recurrence frequency of significant DEGs")
+
+  p2c <- ggplot2::ggplot(
+    category_plot,
+    ggplot2::aes(x = Category, y = Number_of_Genes, fill = Category)
+  ) +
+    ggplot2::geom_col(width = 0.72, show.legend = FALSE) +
+    ggplot2::geom_text(
+      ggplot2::aes(label = paste0(Number_of_Genes, "\n(", round(Percent, 1), "%)")),
+      hjust = -0.08, size = 3.5
+    ) +
+    ggplot2::coord_flip(clip = "off") +
+    ggplot2::scale_fill_manual(values = category_colors, drop = FALSE) +
+    ggplot2::scale_y_continuous(expand = ggplot2::expansion(mult = c(0, .24))) +
+    ggplot2::labs(
+      title = "C  Distribution of recurrence classes",
+      x = NULL, y = "Number of unique significant genes"
+    ) +
+    ggplot2::theme_classic(base_size = 11) +
+    ggplot2::theme(plot.title = ggplot2::element_text(face = "bold"))
+
+  save_csv(category_plot, "5.5B_Fig2C_Recurrence_Category_Summary.csv")
+
+  ggplot2::ggsave(file.path(PUB_DIR, "Figure2A_Recurrence_Distribution.png"),
+                  p2a, width = 10.5, height = 7, dpi = 320, bg = "white")
+  ggplot2::ggsave(file.path(PUB_DIR, "Figure2C_Recurrence_Categories.png"),
+                  p2c, width = 9, height = 6.5, dpi = 320, bg = "white")
+
+  # Re-save the binary recurrence heatmap as publication panel B.
+  if (exists("recurrence_ht")) {
+    grDevices::png(
+      file.path(PUB_DIR, "Figure2B_Recurrent_DEG_Map.png"),
+      width = 3100, height = 3500, res = 320
+    )
+    ComplexHeatmap::draw(recurrence_ht, heatmap_legend_side = "right")
+    grDevices::dev.off()
+    grDevices::pdf(
+      file.path(PUB_DIR, "Figure2B_Recurrent_DEG_Map.pdf"),
+      width = 9.7, height = 11
+    )
+    ComplexHeatmap::draw(recurrence_ht, heatmap_legend_side = "right")
+    grDevices::dev.off()
+  }
+
+  # Assess whether a conserved-effect heatmap is genuinely informative.
+  effect_candidates <- conserved_signature |>
+    dplyr::filter(CellType_Frequency >= 3) |>
+    dplyr::slice_head(n = 25)
+
+  effect_long <- significant_deg |>
+    dplyr::filter(Gene %in% effect_candidates$Gene) |>
+    dplyr::group_by(Gene, CellType) |>
+    dplyr::summarise(Mean_Log2FC = mean(avg_log2FC, na.rm = TRUE),
+                     .groups = "drop")
+
+  effect_coverage <- effect_long |>
+    dplyr::count(Gene, name = "Observed_CellTypes")
+
+  usable_effect_genes <- effect_coverage |>
+    dplyr::filter(Observed_CellTypes >= 3) |>
+    dplyr::pull(Gene)
+
+  if (length(usable_effect_genes) >= 5) {
+
+    effect_wide <- effect_long |>
+      dplyr::filter(Gene %in% usable_effect_genes) |>
+      tidyr::pivot_wider(names_from = CellType, values_from = Mean_Log2FC)
+
+    effect_mat <- effect_wide |>
+      dplyr::select(-Gene) |>
+      as.matrix()
+    rownames(effect_mat) <- effect_wide$Gene
+    storage.mode(effect_mat) <- "numeric"
+
+    finite_vals <- abs(effect_mat[is.finite(effect_mat)])
+    effect_lim <- if (length(finite_vals)) {
+      stats::quantile(finite_vals, 0.95, na.rm = TRUE, names = FALSE)
+    } else 1
+    if (!is.finite(effect_lim) || effect_lim <= 0) effect_lim <- 1
+
+    if (any(!is.finite(effect_mat))) {
+      message("[INFO] Recurrent effect-size matrix contains missing gene-cell-type combinations; ",
+              "NA values will be shown in grey and hierarchical clustering is disabled for this heatmap.")
+    }
+
+    effect_ht <- ComplexHeatmap::Heatmap(
+      effect_mat,
+      name = "Mean log2FC",
+      col = circlize::colorRamp2(
+        c(-effect_lim, 0, effect_lim),
+        c("#2166AC", "#F7F7F7", "#B2182B")
+      ),
+      na_col = "#E5E7EB",
+      cluster_rows = nrow(effect_mat) > 1 && all(is.finite(effect_mat)),
+      cluster_columns = ncol(effect_mat) > 1 && all(is.finite(effect_mat)),
+      show_row_names = TRUE,
+      show_column_names = TRUE,
+      row_names_gp = grid::gpar(fontsize = 8),
+      column_names_gp = grid::gpar(fontsize = 9, fontface = "bold"),
+      column_names_rot = 45,
+      row_title = "Recurrent genes",
+      column_title = "D  Direction and magnitude across immune cell types",
+      heatmap_legend_param = list(
+        title = "Mean log2FC",
+        at = c(-effect_lim, 0, effect_lim),
+        labels = c("Down", "0", "Up")
+      ),
+      border = TRUE
+    )
+
+    grDevices::png(file.path(PUB_DIR, "Figure2D_Recurrent_Effect_Size.png"),
+                   width = 3000, height = 3000, res = 320)
+    ComplexHeatmap::draw(effect_ht, heatmap_legend_side = "right")
+    grDevices::dev.off()
+
+    grDevices::pdf(file.path(PUB_DIR, "Figure2D_Recurrent_Effect_Size.pdf"),
+                   width = 9.5, height = 9.5)
+    ComplexHeatmap::draw(effect_ht, heatmap_legend_side = "right")
+    grDevices::dev.off()
+
+    figure2d_type <- "effect-size heatmap"
+
+  } else {
+
+    # Sparse conserved matrices are not forced into a misleading heatmap.
+    dot_df <- gene_summary |>
+      dplyr::filter(CellType_Frequency >= 2) |>
+      dplyr::arrange(
+        dplyr::desc(CellType_Frequency),
+        dplyr::desc(Comparison_Frequency),
+        dplyr::desc(Mean_Abs_Log2FC)
+      ) |>
+      dplyr::slice_head(n = 20) |>
+      dplyr::mutate(Gene = factor(Gene, levels = rev(Gene)))
+
+    p2d <- ggplot2::ggplot(
+      dot_df,
+      ggplot2::aes(
+        x = CellType_Frequency, y = Gene,
+        size = Mean_Abs_Log2FC, fill = Comparison_Frequency
+      )
+    ) +
+      ggplot2::geom_point(shape = 21, color = "#374151", alpha = 0.9) +
+      ggplot2::scale_fill_gradient(low = "#FDE68A", high = "#B91C1C") +
+      ggplot2::scale_x_continuous(
+        breaks = seq_len(n_cell_types),
+        limits = c(1, n_cell_types)
+      ) +
+      ggplot2::labs(
+        title = "D  Highest-ranking recurrent genes",
+        subtitle = "Used because the conserved effect-size matrix was too sparse for a useful heatmap",
+        x = "Number of cell types",
+        y = NULL,
+        size = "Mean |log2FC|",
+        fill = "Comparisons"
+      ) +
+      ggplot2::theme_classic(base_size = 11) +
+      ggplot2::theme(plot.title = ggplot2::element_text(face = "bold"))
+
+    ggplot2::ggsave(
+      file.path(PUB_DIR, "Figure2D_Recurrent_Gene_Ranking.png"),
+      p2d, width = 9.5, height = 7.5, dpi = 320, bg = "white"
+    )
+    ggplot2::ggsave(
+      file.path(PUB_DIR, "Figure2D_Recurrent_Gene_Ranking.pdf"),
+      p2d, width = 9.5, height = 7.5
+    )
+    save_csv(dot_df, "5.5B_Fig2D_Recurrent_Gene_Ranking.csv")
+    figure2d_type <- "ranked recurrent-gene dot plot"
+  }
+
+  # Figure 2 is intentionally exported as large standalone panels because
+  # ComplexHeatmap panels should not be shrunk into an unreadable patchwork.
+  # A simple assembly guide is written for manuscript layout.
+  assembly_guide <- c(
+    "FIGURE 2 ASSEMBLY GUIDE",
+    "=======================",
+    "A: Figure2A_Recurrence_Distribution",
+    "B: Figure2B_Recurrent_DEG_Map",
+    "C: Figure2C_Recurrence_Categories",
+    paste0("D: ", figure2d_type),
+    "",
+    "Recommended layout: A and C on the top row; B and D on the bottom row.",
+    "Do not shrink panel B below approximately half-page width because gene labels become unreadable.",
+    "Panel D is only an effect-size heatmap when sufficient recurrent genes have observations in >=3 cell types."
+  )
+  writeLines(assembly_guide, file.path(PUB_DIR, "Figure2_Assembly_Guide.txt"))
+
+  publication_manifest <- data.frame(
+    Figure = c("1A","1B","1C","1D","2A","2B","2C","2D"),
+    Meaning = c(
+      "Significant DEG burden by cell type",
+      "Significant DEG burden by disease comparison",
+      "Upregulated versus downregulated significant DEGs by cell type",
+      "Cell type x comparison significant-DEG burden with numeric tile labels",
+      "Frequency with which unique significant genes recur across cell types",
+      "Binary presence/absence map of recurrent significant DEGs",
+      "Counts and percentages of recurrence classes",
+      paste0("Recurrent-gene ", figure2d_type)
+    ),
+    stringsAsFactors = FALSE
+  )
+  save_csv(publication_manifest, "5.5B_Publication_Figure_Manifest.csv")
+})
+
 
 ###############################################################################
 # SECTION 5.6 : ANALYSIS / FIGURE METADATA
@@ -550,7 +941,7 @@ section_timer("SECTION 5.6 REPAIR : Metadata", {
       "Top recurrent genes ranked by cell-type frequency, comparison frequency, effect size and adjusted P value; maximum 50 displayed",
       "Significant DEG recurrent in at least 3 analysed cell types",
       "Mean absolute log2FC x cell-type frequency x comparison frequency x -log10(minimum adjusted P)",
-      "Binary recurrence: white = absent, blue = present; effect-size heatmap: blue = lower/negative log2FC, white = zero, red = higher/positive log2FC"
+      "Binary recurrence: white = absent, blue = present; effect-size heatmap: blue = negative log2FC, white = near zero, red = positive log2FC, grey = no significant gene-cell-type observation"
     ),
     stringsAsFactors = FALSE
   )
