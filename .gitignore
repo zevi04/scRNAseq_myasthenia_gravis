@@ -1,16 +1,45 @@
-# R objects
+# ============================================================
+# R / RStudio
+# ============================================================
+
+# R workspace and serialized objects
 *.RData
+*.Rdata
 *.rds
 
-# Large datasets
-DATA/
-
-# Results
-RESULTS/*.rds
-
-# Temporary files
+# R command history
 .Rhistory
+
+# Temporary R workspace files
 .RDataTmp
-.Rproj.user
-.RDataTmp1
-.RDataTmp@
+.RDataTmp*
+
+# RStudio local project state
+.Rproj.user/
+
+# ============================================================
+# DATA
+# ============================================================
+
+# Large/raw datasets are not stored in GitHub
+DATA/*
+
+# Keep documentation describing how to obtain the data
+!DATA/README.md
+
+# ============================================================
+# RESULTS
+# ============================================================
+
+# Large serialized Seurat objects
+RESULTS/**/*.rds
+RESULTS/**/*.RData
+
+# ============================================================
+# SYSTEM / TEMPORARY FILES
+# ============================================================
+
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
