@@ -12,3 +12,5 @@ RESULTS/*.rds
 .Rhistory
 .RDataTmp
 .Rproj.user
+.RDataTmp1
+.RDataTmp@
